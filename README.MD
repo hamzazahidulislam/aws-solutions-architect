@@ -10,6 +10,8 @@
 
 - keys never leave KMS = KMS FIPS = 140-2 (L2) Level 2
 
+- CMKs can be used for up to **4KB of data**
+
 - **tow party or more involb = Asymmetric Encription**
 
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_11.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_11.png" alt="create-vpc" border="0" width="100%"></a>
