@@ -8,7 +8,7 @@
 
 - s3 key = SSE-KMS
 
-- KMS FIPS = 140-2 (L2)
+- keys never leave KMS = KMS FIPS = 140-2 (L2)
 
 - **tow party or more involb = Asymmetric Encription**
 
