@@ -58,3 +58,4 @@
     - Source bucket owner needs permission to object
     - No **system events**=_life cycle_, **Glaicer** or **Glacier Deep Archive**
     - **No DELETES**
+- S3 is private by default
