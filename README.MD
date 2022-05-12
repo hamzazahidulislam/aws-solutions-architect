@@ -39,5 +39,6 @@
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_13.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_13.png" alt="create-vpc" border="0" width="100%"></a>
 
 - **S3 Lifecycle Configuration - Transitions**
-
+  - **Minimum of 30 days** before transition
+  - smaller objects can **cost more** (minimum size)
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_22.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_22.png" alt="create-vpc" border="0" width="100%"></a>
