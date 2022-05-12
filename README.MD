@@ -19,6 +19,8 @@
 - **_Exam:_**
 
   - S3 encryption = SSE-C, SSE-S3 **(AES256)**, SSE-KMS
+  - MFA is required to **delete versions**
+  - MFA is required to change bucket **version state**
 
 - **tow party or more involb = Asymmetric Encription**
 
@@ -35,3 +37,7 @@
 - **hiding something in something else = Steganography**
 
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_13.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_13.png" alt="create-vpc" border="0" width="100%"></a>
+
+- **S3 Lifecycle Configuration - Transitions**
+
+  - <a href="./AWS-Certified-Solutions-Architect/Screenshot_22.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_22.png" alt="create-vpc" border="0" width="100%"></a>
