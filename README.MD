@@ -48,3 +48,4 @@
   - default = off
   - the bucket name can not conatin periods
   - the bucket name needs to be DNS compatible
+- Replication Time Control (RTC) = 15 minutes
