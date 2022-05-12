@@ -16,6 +16,8 @@
 
 - encryption key rotation = KMS
 
+- S3 encryption = SSE-C, SSE-S3, SSE-KMS
+
 - **tow party or more involb = Asymmetric Encription**
 
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_11.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_11.png" alt="create-vpc" border="0" width="100%"></a>
