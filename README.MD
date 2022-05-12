@@ -49,3 +49,12 @@
   - the bucket name can not conatin periods
   - the bucket name needs to be DNS compatible
 - Replication Time Control (RTC) = 15 minutes replication time
+
+- # S3 Rplication Considerations
+  - **_Exam:_**
+    - **Not retroactive** & Versioning need to be **ON**
+    - **One-way replication** Source to Destination
+    - Unencrypted, SSE-S3 & SSE-KMS (**_with extra configuration_**)
+    - Source bucket owner needs permission to object
+    - No **system events**, **Glaicer** or **Glacier Deep Archive**
+    - **No DELETES**
