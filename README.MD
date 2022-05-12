@@ -7,16 +7,18 @@
 - sts = role
 
 - s3 key = SSE-KMS
+- **_Exam:_**
 
-- keys never leave KMS = KMS FIPS = 140-2 (L2) Level 2
+  - keys never leave KMS = KMS FIPS = 140-2 (L2) Level 2
 
 - CMKs can be used for up to **4KB of data**
 
 - KMS doesn't actually perform the encryption or decryption on the data larger than 4KB
 
 - encryption key rotation = KMS
+- **_Exam:_**
 
-- S3 encryption = SSE-C, SSE-S3, SSE-KMS
+  - S3 encryption = SSE-C, SSE-S3 **(AES256)**, SSE-KMS
 
 - **tow party or more involb = Asymmetric Encription**
 
