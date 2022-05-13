@@ -67,3 +67,10 @@
   - running a NAT gateway hourly = $0.045 per hour
   - partial hour is full hour
   - The Data Processing charge will result in a charge of $0.045.
+- NAT instance VS NAT gateway
+  - NAT gateway = more cost, more capacity, more flexibility
+  - NAT instance = less cost, less capacity, less flexibility
+  - Disable **Source/Destination Checks** in NAT instance
+- **NAT gateway = NACL = Network ACL** cannot be use security groups
+- NAT Gateways **don't work with IPv6**
+- Attached to ENI's not instances(even if the UI shows it this way)
