@@ -74,3 +74,9 @@
 - **NAT gateway = NACL = Network ACL** cannot be use security groups
 - NAT Gateways **don't work with IPv6**
 - Attached to ENI's not instances(even if the UI shows it this way)
+- route table associated with many route table
+- subnet only associated with one route table
+- local route always take priority
+- subnet to have a route table associated with the main VPC or custom you created the route table
+- IGW **region resilient** gateway
+- NAT **region resilient** gateway
