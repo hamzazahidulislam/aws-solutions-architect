@@ -59,3 +59,6 @@
     - No **system events**=_life cycle_, **Glaicer** or **Glacier Deep Archive**
     - **No DELETES**
 - S3 is private by default
+- VPC `Base IP +2` Address
+- **enableDnsHostnames** - gives instances DNS Names
+- **enableDnsSupport** - enables DNS resolution in VPC
