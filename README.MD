@@ -62,3 +62,8 @@
 - VPC `Base IP +2` Address
 - **enableDnsHostnames** - gives instances DNS Names
 - **enableDnsSupport** - enables DNS resolution in VPC
+
+- NAT gateway charges
+  - running a NAT gateway hourly = $0.045 per hour
+  - partial hour is full hour
+  - The Data Processing charge will result in a charge of $0.045.
