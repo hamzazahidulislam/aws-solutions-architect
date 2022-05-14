@@ -80,3 +80,5 @@
 - subnet to have a route table associated with the main VPC or custom you created the route table
 - IGW **region resilient** gateway
 - NAT **region resilient** gateway
+- **instance it self is not configured with that public IP**
+- **EC2 instance it just has a private IP**
