@@ -82,3 +82,8 @@
 - NAT **region resilient** gateway
 - **instance it self is not configured with that public IP**
 - **EC2 instance it just has a private IP**
+- **one subnet is in one availability zone**
+
+  - **subnet can never be in more than one availability zone**
+
+
