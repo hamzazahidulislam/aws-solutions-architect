@@ -93,9 +93,9 @@
 - **10.16.16.0/20 (10.16.16.0 => 10.16.31.255)**
 - **Network Address (10.16.16.0)**
 
-- **'Network +1' (10.16.16.1) - VPC Router**
+- **`Network +1` (10.16.16.1) - VPC Router**
 
-- **'Network +2' (10.16.16.2) - Reserved (DNS\*)**
-- **'Network +3' (10.16.16.3) - Reserved Future Use**
+- **`Network +2` (10.16.16.2) - Reserved (DNS\*)**
+- **`Network +3` (10.16.16.3) - Reserved Future Use**
 
 - **Broadcast Address 10.16.31.255 (Last IP in subnet)**
