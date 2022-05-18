@@ -99,3 +99,7 @@
 - **`Network +3` (10.16.16.3) - Reserved Future Use**
 
 - **Broadcast Address 10.16.31.255 (Last IP in subnet)**
+
+- ### Exam alert
+  - **which IP Address range the EC2 instance connects service users**
+    - [IP Address Range](https://ip-ranges.amazonaws.com/ip-ranges.json)
