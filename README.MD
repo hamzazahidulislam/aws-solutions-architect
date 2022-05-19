@@ -103,3 +103,8 @@
 - ### Exam alert
   - **which IP Address range the EC2 instance connects service users**
     - [IP Address Range](https://ip-ranges.amazonaws.com/ip-ranges.json)
+
+- ### Exam alert
+  - This is need System Ops and Developer associate
+   - **Storage performance in IOPS need to experienced**
+ 
