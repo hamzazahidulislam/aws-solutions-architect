@@ -101,10 +101,26 @@
 - **Broadcast Address 10.16.31.255 (Last IP in subnet)**
 
 - ### Exam alert
+
   - **which IP Address range the EC2 instance connects service users**
     - [IP Address Range](https://ip-ranges.amazonaws.com/ip-ranges.json)
 
 - ### Exam alert
+
   - This is need System Ops and Developer associate
-   - **Storage performance in IOPS need to experienced**
- 
+  - **Storage performance in IOPS need to experienced**
+
+- ### Exam alert
+- ## Instance Store VS EBS
+
+  - **Cheap = ST1 or SC1**
+
+  - **Throughput .. streaming ... ST1**
+  - **Boot ............. NOT ST1 or SC1**
+  - **GP2/3 - up to 16,000 IOPS**
+
+  - **101/2 - up to 64,000 1OPS (\*256,000)**
+  - **RAIDO + EBS up to 260,000 IOPS (101/2-BE/GP2/3)**
+  - **More than 260,000 IOPS - INSTANCE STORE**
+
+  - <a href="./AWS-Certified-Solutions-Architect/Screenshot_59.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_59.png" alt="create-vpc" border="0" width="100%"></a>
