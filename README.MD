@@ -124,3 +124,14 @@
   - **More than 260,000 IOPS - INSTANCE STORE**
 
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_59.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_59.png" alt="create-vpc" border="0" width="100%"></a>
+
+- ### Exam alert
+- ## EBS Snapshots/Volume Performance
+
+  - **New EBS volume = full performance immediately**
+  - **Snaps restore lazily - fetched gradually**
+  - **Requested blocks are fetched immediately**
+
+  - **Force a read of all data immediately ...**
+  - **Fast Snapshot Restore (FSR) - Immediate restore**
+  - **.. up to 50 snaps per region. Set on the Snap & AZ**
