@@ -135,3 +135,14 @@
   - **Force a read of all data immediately ...**
   - **Fast Snapshot Restore (FSR) - Immediate restore**
   - **.. up to 50 snaps per region. Set on the Snap & AZ**
+
+- ### AMI Exam Tips
+
+  - **AMI = One Region, only works in that one region**
+  - **AMI Baking .. creating an AMI from a configured instance +
+    application**
+
+  - **An AMI can't be edited .. launch instance, update
+    configuration and make a new AMI**
+  - **Can be copied between regions (includes its snapshots)**
+  - **Remember permissions .. default = your account**
