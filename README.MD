@@ -151,3 +151,8 @@
 
 - get instance metadata
 - [http://169.254.169.254/latest/meta-data/](http://169.254.169.254/latest/meta-data/)
+
+- ### It's critical to know in SystemOps
+
+  - that at no point ever,
+  - private IP address is exposed to the internet via NAT gateway
