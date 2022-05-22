@@ -156,3 +156,8 @@
 
   - that at no point ever,
   - private IP address is exposed to the internet via NAT gateway
+
+- ### Exam alert
+
+  - **task definition** stores is the task role.
+  - A task role is an IAM role that a task can assume. And when the task assumes that role, it gains temporary credentials, which can be used within the task to interact with AWS resources.
