@@ -146,3 +146,8 @@
     configuration and make a new AMI**
   - **Can be copied between regions (includes its snapshots)**
   - **Remember permissions .. default = your account**
+
+### EC2 Instance
+
+- get instance metadata
+- [http://169.254.169.254/latest/meta-data/](http://169.254.169.254/latest/meta-data/)
