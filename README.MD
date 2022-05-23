@@ -175,7 +175,7 @@
   - Public Parameters - Latest AMIs per region
 
 - EC2 Placement Groups
-
+  - understand between this 3 placement groups for exam
   - **Cluster** - Pack instances close together
   - **Spread** - Keep instances separated
   - **Partition** - groups of instances spread apart
