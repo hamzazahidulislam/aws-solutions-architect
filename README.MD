@@ -173,3 +173,9 @@
   - Hierarchies & Versioning
   - Plaintext and Ciphertext
   - Public Parameters - Latest AMIs per region
+
+- EC2 Placement Groups
+
+  - **Cluster** - Pack instances close together
+  - **Spread** - Keep instances separated
+  - **Partition** - groups of instances spread apart
