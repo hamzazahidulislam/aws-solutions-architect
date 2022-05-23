@@ -175,7 +175,12 @@
   - Public Parameters - Latest AMIs per region
 
 - EC2 Placement Groups
+
   - understand between this 3 placement groups for exam
   - **Cluster** - Pack instances close together
   - **Spread** - Keep instances separated
   - **Partition** - groups of instances spread apart
+
+- Dedicated Host Limitations & Features
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_101.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_101.png" alt="create-vpc" border="0" width="100%"></a>
