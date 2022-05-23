@@ -163,3 +163,13 @@
   - A task role is an IAM role that a task can assume. And when the task assumes that role, it gains temporary credentials, which can be used within the task to interact with AWS resources.
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_75.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_75.png" alt="create-vpc" border="0" width="100%"></a>
+
+- SSM Parameter Store
+
+  - Storage for configuration & secrets
+    String, StringList & SecureString
+  - License codes, Database Strings, Full Configs & Passwords
+
+  - Hierarchies & Versioning
+  - Plaintext and Ciphertext
+  - Public Parameters - Latest AMIs per region
