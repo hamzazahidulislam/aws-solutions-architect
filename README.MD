@@ -192,3 +192,9 @@
 - R53 CNAME VS ALIAS
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_110.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_110.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_111.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_111.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Route53 Simple Routing
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_112.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_112.png" alt="create-vpc" border="0" width="100%"></a>
