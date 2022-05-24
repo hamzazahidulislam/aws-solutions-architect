@@ -198,3 +198,7 @@
 - Route53 Simple Routing
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_112.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_112.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Route 53 Health Checks
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_113.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_113.png" alt="create-vpc" border="0" width="100%"></a>
