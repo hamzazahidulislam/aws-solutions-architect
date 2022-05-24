@@ -202,3 +202,7 @@
 - Route 53 Health Checks
 
 <a href="./AWS-Certified-Solutions-Architect/Screenshot_113.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_113.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Route53 Failover Routing
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_114.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_114.png" alt="create-vpc" border="0" width="100%"></a>
