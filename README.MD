@@ -188,3 +188,7 @@
 - Enhanced Networking
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_102.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_102.png" alt="create-vpc" border="0" width="100%"></a>
+
+- R53 CNAME VS ALIAS
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_110.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_110.png" alt="create-vpc" border="0" width="100%"></a>
