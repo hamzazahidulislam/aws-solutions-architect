@@ -210,3 +210,8 @@
 - ACID vs BASE
 
 <a href="./AWS-Certified-Solutions-Architect/Screenshot_131.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_131.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Exam Alert
+  - BASE = NOSQL Database
+  - ACID = RDS Database
+  - NOSQL or DynamoDB with ACID = DynamoDB transection
