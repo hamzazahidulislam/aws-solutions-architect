@@ -216,10 +216,14 @@
   - ACID = RDS Database
   - NOSQL or DynamoDB with ACID = DynamoDB transection
   - only access RDS using CNAME and CNAME points normally at the primary instance
-  - RDS MultiAZ can be used to scale the amount of reads ? 
-  - don't fall for questions wich talk about MultiAZ across different regions =! ? 
+  - RDS MultiAZ can be used to scale the amount of reads != ? 
+  - don't fall for questions wich talk about MultiAZ across different regions != ? 
     - it can only occur with other availiability zones inside the same VPC inside the same region
-  - synchronous replication = MultiAZ
+  - synchronous replication = MultiAZ 
+  - standby replica cannot be used to read, or write operations to the RDS instance
+  - RDS Backups and Restores need to know for exam
+  - you can plain disaster recovery within your business or understand and answer exam questions which involve disaster recovey and business continuty
+  - RTO vs RPO need to know for exam
 
 - SystemOps or Developer 
   - Database authentication options
