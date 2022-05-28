@@ -225,6 +225,7 @@
   - RDS Backups and Restores need to know for exam
   - you can plain disaster recovery within your business or understand and answer exam questions which involve disaster recovey and business continuty
   - RTO vs RPO need to know for exam
+  - final snapshots backups Before RDS instance remove
 
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_143.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_143.png" alt="create-vpc" border="0" width="100%"></a>
 
