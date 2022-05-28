@@ -215,3 +215,17 @@
   - BASE = NOSQL Database
   - ACID = RDS Database
   - NOSQL or DynamoDB with ACID = DynamoDB transection
+  - only access RDS using CNAME and CNAME points normally at the primary instance
+  - RDS MultiAZ can be used to scale the amount of reads ? 
+  - don't fall for questions wich talk about MultiAZ across different regions =! ? 
+    - it can only occur with other availiability zones inside the same VPC inside the same region
+  - synchronous replication = MultiAZ
+
+- SystemOps or Developer 
+  - Database authentication options
+    - Database authentication inside = Password and IAM database authentication need to know
+    - Architect need just = Password authentication
+    - DataBase Monitoring CloudWatch = significantly need to knwo more
+- SystemOps or Developer or SA Pro or DevOps Pro
+  - Database Additional configuration
+    - need to know `DB parameter group` & `Option Group`
