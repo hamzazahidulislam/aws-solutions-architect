@@ -229,6 +229,7 @@
   - synchronous replication = Multi-AZ
   - asynchronous replication = Read-Replica
   - Read-replicas are read-only until they're promoted read-replica to be read and write that process is not reversible and you have to delete and create new read replica
+  - Fail-over times are typically 60 to 120 seconds
 
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_143.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_143.png" alt="create-vpc" border="0" width="100%"></a>
 
