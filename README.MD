@@ -239,5 +239,11 @@
     - Architect need just = Password authentication
     - DataBase Monitoring CloudWatch = significantly need to knwo more
 - SystemOps or Developer or SA Pro or DevOps Pro
+
   - Database Additional configuration
     - need to know `DB parameter group` & `Option Group`
+
+- **Authorisation** is controlled by the **_DB
+  Engine_**, Permissions are assigned to
+  the local DB User. **IAM is NOT used to
+  authorise**, only for authentication
