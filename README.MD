@@ -247,3 +247,4 @@
   Engine_**, Permissions are assigned to
   the local DB User. **IAM is NOT used to
   authorise**, only for authentication
+- Aurora Clsuter Volume: Max  128 TiB, 6 Replicas, AZs and up to 15 replicas
