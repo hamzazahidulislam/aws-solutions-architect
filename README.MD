@@ -238,6 +238,11 @@
     - Database authentication inside = Password and IAM database authentication need to know
     - Architect need just = Password authentication
     - DataBase Monitoring CloudWatch = significantly need to knwo more
+    - aurora 
+      - connectivity
+      - Aadditional Configuration
+      - Web Service Data API
+        <a href="./AWS-Certified-Solutions-Architect/Screenshot_162.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_162.png" alt="create-vpc" border="0" width="100%"></a>
 - SystemOps or Developer or SA Pro or DevOps Pro
 
   - Database Additional configuration
