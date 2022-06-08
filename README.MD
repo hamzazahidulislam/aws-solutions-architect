@@ -236,6 +236,8 @@
 
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_164.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_164.png" alt="create-vpc" border="0" width="100%"></a>
 
+  - DMS = Data Migration Service
+
 - SystemOps or Developer
   - Database authentication options
     - Database authentication inside = Password and IAM database authentication need to know
