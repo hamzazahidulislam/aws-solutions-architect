@@ -230,16 +230,18 @@
   - asynchronous replication = Read-Replica
   - Read-replicas are read-only until they're promoted read-replica to be read and write that process is not reversible and you have to delete and create new read replica
   - Fail-over times are typically 60 to 120 seconds
-  - Aurora Global Database = global database allow you to create global level replication using Aurora from master region to up to five secondary AWS region 
+  - Aurora Global Database = global database allow you to create global level replication using Aurora from master region to up to five secondary AWS region
 
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_143.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_143.png" alt="create-vpc" border="0" width="100%"></a>
+
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_164.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_164.png" alt="create-vpc" border="0" width="100%"></a>
 
 - SystemOps or Developer
   - Database authentication options
     - Database authentication inside = Password and IAM database authentication need to know
     - Architect need just = Password authentication
     - DataBase Monitoring CloudWatch = significantly need to knwo more
-    - aurora 
+    - aurora
       - connectivity
       - Aadditional Configuration
       - Web Service Data API
@@ -254,4 +256,4 @@
   the local DB User. **IAM is NOT used to
   authorise**, only for authentication
 - Aurora Clsuter Volume: Max 128 TiB, 6 Replicas, AZs and per 2 replicas per AZs
-- Aurora you've got 15 different replicas
+- Aurora you've got 1 read/write primary instance and 15 different read replicas total 16 replica
