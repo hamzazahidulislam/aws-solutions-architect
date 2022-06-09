@@ -238,6 +238,7 @@
 
   - DMS = Data Migration Service
   - database migration scenario = default DMS, if say no downtime migration then you absolutely should default to DMS
+  - SCT = only used for migrations when the engine is changing
 
 - SystemOps or Developer
   - Database authentication options
