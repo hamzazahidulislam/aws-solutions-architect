@@ -237,6 +237,7 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_164.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_164.png" alt="create-vpc" border="0" width="100%"></a>
 
   - DMS = Data Migration Service
+  - database migration scenario = default DMS, if say no downtime migration then you absolutely should default to DMS
 
 - SystemOps or Developer
   - Database authentication options
