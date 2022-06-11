@@ -263,11 +263,9 @@
 - Aurora Clsuter Volume: Max 128 TiB, 6 Replicas, AZs and per 2 replicas per AZs
 - Aurora you've got 1 read/write primary instance and 15 different read replicas total 16 replica
 
-
 # HA & SCALING
 
 - Exam Alert
-  - decide whether that Load Balancer shoud be internet-facing or wether it shoud be internal 
-     
-     - if you pick internet-facing then the nodes of that Load Balancer are given public address and private addresss
-     - if you pick internal then the nodes of that Load Balancer are given public address and private addresss
+  - decide whether that Load Balancer shoud be internet-facing or wether it shoud be internal
+    - if you pick internet-facing then the nodes of that Load Balancer are given public address and private addresss
+    - if you pick internal then the nodes only have private IP addresses
