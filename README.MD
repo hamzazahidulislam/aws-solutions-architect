@@ -269,3 +269,5 @@
   - decide whether that Load Balancer shoud be internet-facing or wether it shoud be internal
     - if you pick internet-facing then the nodes of that Load Balancer are given public address and private addresss
     - if you pick internal then the nodes only have private IP addresses
+  - internet-facing Load Balancer does not need private or public instances. **it can work with both of those**
+    - **internet-facing LB nodes can be access **_public_** & **_private_** EC2 instance**
