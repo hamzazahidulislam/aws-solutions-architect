@@ -262,3 +262,9 @@
   authorise**, only for authentication
 - Aurora Clsuter Volume: Max 128 TiB, 6 Replicas, AZs and per 2 replicas per AZs
 - Aurora you've got 1 read/write primary instance and 15 different read replicas total 16 replica
+
+
+# HA & SCALING
+
+- Exam Alert
+  - decide 
