@@ -267,4 +267,7 @@
 # HA & SCALING
 
 - Exam Alert
-  - decide 
+  - decide whether that Load Balancer shoud be internet-facing or wether it shoud be internal 
+     
+     - if you pick internet-facing then the nodes of that Load Balancer are given public address and private addresss
+     - if you pick internal then the nodes of that Load Balancer are given public address and private addresss
