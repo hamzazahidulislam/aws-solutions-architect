@@ -271,3 +271,4 @@
     - if you pick internal then the nodes only have private IP addresses
   - internet-facing Load Balancer does not need private or public instances. **it can work with both of those**
     - **internet-facing LB nodes can be access **_public_** & **_private_** EC2 instance**
+  - minimum per subnet `/27` for load balacner but if exam show `/28` dont show `/27` then `/28` is correct
