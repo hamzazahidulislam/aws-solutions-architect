@@ -290,4 +290,5 @@
   - Docker **is not supported (anti pattern)** for the exam
   - Custom runtime such as **Rust** are possible using layers
   - lamda has two networking mode = public, VPC networking
-  - lamda functions running in a **_VPC_** **obey all VPC networking rules** 
+  - lamda functions running in a **_VPC_** **obey all VPC networking rules**
+  - executing Lamda functions within a VPC
