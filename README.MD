@@ -281,3 +281,4 @@
   - which talk about things which aren't web or secure web and don't use HTTP OR HTTPS = then you should probably default to Network Load balancers.
   - **Forward TCP** to instances ...**unbroken encryption**
   - Used with private link to provide services to other VPCs.
+  - for any knwo periods of high or low usage = know periods of usage == then **Scheduled Scaling**
