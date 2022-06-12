@@ -279,3 +279,4 @@
   - which are really stict on performance then you might want to look at Network Load Balancer **_(NLB)_**
   - if you have to forward encrypted connections throught to the instances without terminating them on the load balancer. then you need to use a Network Load Balancer
   - which talk about things which aren't web or secure web and don't use HTTP OR HTTPS = then you should probably default to Network Load balancers.
+  - **Forward TCP** to instances ...**unbroken encryption**
