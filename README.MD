@@ -292,3 +292,4 @@
   - lamda has two networking mode = public, VPC networking
   - lamda functions running in a **_VPC_** **obey all VPC networking rules**
   - executing Lamda functions within a VPC
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_229.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_229.png" alt="create-vpc" border="0" width="100%"></a>
