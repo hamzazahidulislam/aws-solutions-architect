@@ -289,3 +289,4 @@
   - Lamda function = **900s** (**15**M maximum)
   - Docker **is not supported (anti pattern)** for the exam
   - Custom runtime such as **Rust** are possible using layers
+  - lamda has two networking mode = public, VPC networking
