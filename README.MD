@@ -282,3 +282,10 @@
   - **Forward TCP** to instances ...**unbroken encryption**
   - Used with private link to provide services to other VPCs.
   - for any knwo periods of high or low usage = know periods of usage == then **Scheduled Scaling**
+
+# SERVERLESS AND APPLICATION SERVICES
+
+- Exam Alert
+  - Lamda function = **900s** (**15**M maximum)
+  - Docker **is not supported (anti pattern)** for the exam
+  - Custom runtime such as **Rust** are possible using layers
