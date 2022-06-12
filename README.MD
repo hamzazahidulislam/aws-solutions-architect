@@ -276,3 +276,4 @@
   - **ALB** = IS default enable as standard
   - **_EC2_** **doesn't need to be public** to work with a LB
   - **8+** Free IPs per subnet , and **/27** subnet to allow scaling
+  - which are really stict on performance then you might want to look at Network Load Balancer **_(NLB)_**
