@@ -300,3 +300,7 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_234.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_234.png" alt="create-vpc" border="0" width="100%"></a>
   - SNS Message are <=**256KB** payloads
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_242.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_242.png" alt="create-vpc" border="0" width="100%"></a>
+  - State Machine
+    - **Standard** Workflow and **Express** Workflow
+    - **Standard** is the default and it has a one year exucation limit. = long running
+    - **Express**, that's designed for high volume event processing workloads such as IOT, streaming data processing and tarnsformation, mobile application backend = run up to five minutes and highly transactional
