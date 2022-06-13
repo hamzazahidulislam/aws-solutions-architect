@@ -286,6 +286,7 @@
 # SERVERLESS AND APPLICATION SERVICES
 
 - Exam Alert
+
   - Lamda function = **900s** (**15**M maximum)
   - Docker **is not supported (anti pattern)** for the exam
   - Custom runtime such as **Rust** are possible using layers
@@ -306,3 +307,7 @@
     - **Express**, that's designed for high volume event processing workloads such as IOT, streaming data processing and tarnsformation, mobile application backend = run up to five minutes and highly transactional
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_252.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_252.png" alt="create-vpc" border="0" width="100%"></a>
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_253.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_253.png" alt="create-vpc" border="0" width="100%"></a>
+
+- SystemOps or Developer
+
+  - API Gateway
