@@ -297,3 +297,4 @@
   - asynchronous invocation = by aws but indirectly human
   - Event Source mappings
   - lamda execution role needed
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_234.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_234.png" alt="create-vpc" border="0" width="100%"></a>
