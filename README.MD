@@ -296,3 +296,4 @@
   - synchronous invocation = by human
   - asynchronous invocation = by aws but indirectly human
   - Event Source mappings
+  - lamda execution role needed
