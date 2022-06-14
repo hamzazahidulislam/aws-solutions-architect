@@ -302,11 +302,16 @@
   - SNS Message are <=**256KB** payloads
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_242.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_242.png" alt="create-vpc" border="0" width="100%"></a>
   - State Machine
+
     - **Standard** Workflow and **Express** Workflow
     - **Standard** is the default and it has a one year exucation limit. = long running
     - **Express**, that's designed for high volume event processing workloads such as IOT, streaming data processing and tarnsformation, mobile application backend = run up to five minutes and highly transactional
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_252.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_252.png" alt="create-vpc" border="0" width="100%"></a>
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_253.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_253.png" alt="create-vpc" border="0" width="100%"></a>
+
+    - Fanout = one SNS Topic Multiple subcriber and SQS as the same topic
+      <a href="./AWS-Certified-Solutions-Architect/Screenshot_241.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_241.png" alt="create-vpc" border="0" width="100%"></a>
+      <a href="./AWS-Certified-Solutions-Architect/Screenshot_262.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_262.png" alt="create-vpc" border="0" width="100%"></a>
 
 - SystemOps or Developer
 
