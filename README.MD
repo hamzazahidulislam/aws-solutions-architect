@@ -312,9 +312,12 @@
     - Fanout = one SNS Topic Multiple subcriber and SQS as the same topic
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_241.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_241.png" alt="create-vpc" border="0" width="100%"></a>
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_262.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_262.png" alt="create-vpc" border="0" width="100%"></a>
+      <a href="./AWS-Certified-Solutions-Architect/Screenshot_261.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_261.png" alt="create-vpc" border="0" width="100%"></a>
+      <a href="./AWS-Certified-Solutions-Architect/Screenshot_265.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_265.png" alt="create-vpc" border="0" width="100%"></a>
     - standard queues like a multi-lane highway = **at-least-once** delivery and no guarantees on the order of that delivery
     - FIFO queues was like a single lane road = queues both gurantee the order and guarantee **exactly once delivery**
     - is that exam question about the ingestion of data or is it worker pools decoupling or does it mention a synchronous comunication,if it's about the ingestion of data or the ingestion of data at scale so large throughput or large numbers of devices = it's likely to be kinesis wich is the right answer
+    - if it's about any of the others so worker pools decoupling or asynchronous communication = assume first that it's SQS
 
 - SystemOps or Developer
 
