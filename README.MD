@@ -312,6 +312,8 @@
     - Fanout = one SNS Topic Multiple subcriber and SQS as the same topic
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_241.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_241.png" alt="create-vpc" border="0" width="100%"></a>
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_262.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_262.png" alt="create-vpc" border="0" width="100%"></a>
+    - standard queues like a multi-lane highway = **at-least-once** delivery and no guarantees on the order of that delivery
+    - FIFO queues was like a single lane road = queues both gurantee the order and guarantee **exactly once delivery**
 
 - SystemOps or Developer
 
