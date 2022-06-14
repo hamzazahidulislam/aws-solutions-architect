@@ -319,6 +319,7 @@
     - is that exam question about the ingestion of data or is it worker pools decoupling or does it mention a synchronous comunication,if it's about the ingestion of data or the ingestion of data at scale so large throughput or large numbers of devices = it's likely to be kinesis wich is the right answer
     - if it's about any of the others so worker pools decoupling or asynchronous communication = assume first that it's SQS
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_266.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_266.png" alt="create-vpc" border="0" width="100%"></a>
+    - kinesis Data Firehouse wich combine the designed to scope with large amounts of streaming data ingestion, consumption and management within AWS
 
 - SystemOps or Developer
 
