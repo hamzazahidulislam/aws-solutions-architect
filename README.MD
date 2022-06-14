@@ -318,3 +318,5 @@
 - SystemOps or Developer
 
   - API Gateway
+
+- the way that the kinesis stream scales is by using a shared architecture
