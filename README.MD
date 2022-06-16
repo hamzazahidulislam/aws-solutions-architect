@@ -326,6 +326,7 @@
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_266.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_266.png" alt="create-vpc" border="0" width="100%"></a>
     - CloudFront , if you're wanting to add any certificate they always need to be in **us-east-1**
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_286.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_286.png" alt="create-vpc" border="0" width="100%"></a>
+      <a href="./AWS-Certified-Solutions-Architect/Screenshot_287.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_287.png" alt="create-vpc" border="0" width="100%"></a>
     - Two SSL Connection = Both Need valid public certificate
 
 - SystemOps or Developer
