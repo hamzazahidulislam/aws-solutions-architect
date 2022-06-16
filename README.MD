@@ -332,8 +332,13 @@
     - custom origin = Minimum Origin SSL Prtocol, Origin Protocol Policy, HTTP Port, HTTPS Port
     - two type of origin = S3 Origin, Custom Origin
 
-- SystemOps or Developer
+- ## SystemOps or Developer
 
   - API Gateway
 
+- ## Developer
+  - CloudFront
+    - Cache key and origin requests
+      -
+        - Origin requests policy -optional
 - the way that the kinesis stream scales is by using a shared architecture
