@@ -331,6 +331,7 @@
     - Two SSL Connection = Both Need valid public certificate
     - custom origin = Minimum Origin SSL Prtocol, Origin Protocol Policy, HTTP Port, HTTPS Port
     - two type of origin = S3 Origin, Custom Origin
+    - CloudFront private distribution = Trusted key groups (recommended), Trusted signer
 
 - ## SystemOps or Developer
 
@@ -338,7 +339,6 @@
 
 - ## Developer
   - CloudFront
-    - Cache key and origin requests
-      -
-        - Origin requests policy -optional
+    - ## Cache key and origin requests
+      - Origin requests policy -optional
 - the way that the kinesis stream scales is by using a shared architecture
