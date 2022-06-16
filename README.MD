@@ -330,6 +330,7 @@
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_288.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_288.png" alt="create-vpc" border="0" width="100%"></a>
     - Two SSL Connection = Both Need valid public certificate
     - custom origin = Minimum Origin SSL Prtocol, Origin Protocol Policy, HTTP Port, HTTPS Port
+    - two type of origin = S3 Origin, Custom Origin
 
 - SystemOps or Developer
 
