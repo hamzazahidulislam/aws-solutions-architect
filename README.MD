@@ -320,6 +320,7 @@
     - if it's about any of the others so worker pools decoupling or asynchronous communication = assume first that it's SQS
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_266.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_266.png" alt="create-vpc" border="0" width="100%"></a>
     - kinesis Data Firehouse wich combine the designed to scope with large amounts of streaming data ingestion, consumption and management within AWS
+    - Wich need really complex manipulation data in real time = kinesis data analytics
     - kinesis Data Firehouse it is not a real time product. **it is a near real-time product.** near real-time delivery (**~60 seconds**)
     - So even though Firehouse gets the data in real time, it doesn't deliver it to the destination in real time.
     - AWS perspective, something in the range of 200 milliseconds would be a real time product, but something in the range of 60 seconds would be classified as a near real time
@@ -333,6 +334,11 @@
     - two type of origin = S3 Origin, Custom Origin
     - CloudFront private distribution = Trusted key groups (recommended), Trusted signer
     - CloudFront Enable real-time logs using kinesis
+    - Cloud front = restrict viewers Access ( use signed url or Cookie) yes , no
+    - Trusted signer = restrict viewers Access, self, specify account
+    - Cloud front behavior cashing
+    - Cloud front = version filename is cost effective
+    - Cloud front need trusted certificate and not self signed
 
 - ## SystemOps or Developer
 
