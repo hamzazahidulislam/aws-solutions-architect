@@ -332,6 +332,7 @@
     - custom origin = Minimum Origin SSL Prtocol, Origin Protocol Policy, HTTP Port, HTTPS Port
     - two type of origin = S3 Origin, Custom Origin
     - CloudFront private distribution = Trusted key groups (recommended), Trusted signer
+    - CloudFront Enable real-time logs using kinesis
 
 - ## SystemOps or Developer
 
