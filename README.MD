@@ -161,7 +161,7 @@
 
   - **task definition** stores is the task role.
   - A task role is an IAM role that a task can assume. And when the task assumes that role, it gains temporary credentials, which can be used within the task to interact with AWS resources.
-
+  - roles are always preferable than storing long-term credentials
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_75.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_75.png" alt="create-vpc" border="0" width="100%"></a>
 
 - SSM Parameter Store
