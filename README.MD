@@ -329,6 +329,7 @@
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_287.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_287.png" alt="create-vpc" border="0" width="100%"></a>
       <a href="./AWS-Certified-Solutions-Architect/Screenshot_288.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_288.png" alt="create-vpc" border="0" width="100%"></a>
     - Two SSL Connection = Both Need valid public certificate
+    - custom origin = Minimum Origin SSL Prtocol, Origin Protocol Policy, HTTP Port, HTTPS Port
 
 - SystemOps or Developer
 
