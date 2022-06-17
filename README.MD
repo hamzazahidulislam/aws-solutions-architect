@@ -339,7 +339,8 @@
     - Cloud front behavior cashing
     - Cloud front = version filename is cost effective
     - Cloud front need trusted certificate and not self signed
-
+    - Global performance optimization = TCP/UDP = AWS Global accelerator
+    - caching = CloudFront
 - ## SystemOps or Developer
 
   - API Gateway
