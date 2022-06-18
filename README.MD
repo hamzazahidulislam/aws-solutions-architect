@@ -354,3 +354,6 @@
       - Origin requests policy -optional
         <a href="./AWS-Certified-Solutions-Architect/Screenshot_292.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_292.png" alt="create-vpc" border="0" width="100%"></a>
 - the way that the kinesis stream scales is by using a shared architecture
+
+
+# ADVANCED VPC Networking
