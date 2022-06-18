@@ -364,3 +364,4 @@
   - Interface endpoint don't' use routing they use **DNS**
   - Gateway endpoint is (**HA**) Highly Available service
   - Gateway endpoint use private VPC only
+  - Gateway endpoint ONLY accessable from inside the specific VPC. there logical gateway object and you can only access logical gateway created inside VPC from that VPC
