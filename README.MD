@@ -355,5 +355,9 @@
         <a href="./AWS-Certified-Solutions-Architect/Screenshot_292.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_292.png" alt="create-vpc" border="0" width="100%"></a>
 - the way that the kinesis stream scales is by using a shared architecture
 
-
 # ADVANCED VPC Networking
+
+- Exam Alert
+
+  - Gateway endpoint use prifix list and route table
+  - Interface endpoint uses DNS and enterface private endpoint
