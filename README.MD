@@ -362,3 +362,5 @@
   - Gateway endpoint use prifix list and route table
   - Interface endpoint uses DNS and enterface private endpoint
   - Interface endpoint don't' use routing they use **DNS**
+  - Gateway endpoint is (**HA**) Highly Available service
+  - Gateway endpoint use private VPC only
