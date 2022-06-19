@@ -369,3 +369,4 @@
 # HYBRID ENVIRONMENTS AND MIGRATION
 
 - partial high availability
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_324.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_324.png" alt="create-vpc" border="0" width="100%"></a>
