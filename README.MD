@@ -371,3 +371,7 @@
 - partial high availability
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_324.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_324.png" alt="create-vpc" border="0" width="100%"></a>
 - BGP = dynamic VPN
+
+- Exam Alert
+  - if you need more than 1.25 Gb per second, then you can't use VPNs.
+  - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway
