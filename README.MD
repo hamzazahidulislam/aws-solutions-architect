@@ -374,4 +374,4 @@
 
 - Exam Alert
   - if you need more than 1.25 Gb per second, then you can't use VPNs.
-  - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway
+  - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway. and that's also 1.25 gigabits per second.
