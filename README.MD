@@ -372,7 +372,13 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_324.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_324.png" alt="create-vpc" border="0" width="100%"></a>
 - BGP = dynamic VPN
 - static routes take priority over propagated routes
+- Site to site VPN backup for **DX**
+- transit gateway = highly available inter VPC router
+
 - Exam Alert
   - if you need more than 1.25 Gb per second, then you can't use VPNs.
   - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway. and that's also 1.25 gigabits per second.
   - VPN are quickly configurable within hours
+  - TGW
+  - TGW can be use to create global network
+  - TGW = deferent region or same and cross account
