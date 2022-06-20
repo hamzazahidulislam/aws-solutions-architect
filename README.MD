@@ -374,7 +374,7 @@
 - static routes take priority over propagated routes
 - Site to site VPN backup for **DX**
 - transit gateway = highly available inter VPC router
-
+- so when you think stoage gateway, think extention, migration and backup
 - Exam Alert
   - if you need more than 1.25 Gb per second, then you can't use VPNs.
   - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway. and that's also 1.25 gigabits per second.
