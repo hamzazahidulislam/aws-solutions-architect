@@ -395,6 +395,8 @@
 
 # SECURITY, DEPLOYMENT & OPERATIONS
 
+- AWS Config = System manager, Lamda for account level think
+- SSM Parameter Store = instances
 - ## Exam Alert
   - <a href="./AWS-Certified-Solutions-Architect/Screenshot_370.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_370.png" alt="create-vpc" border="0" width="100%"></a>
   - rotation, integration, sceret, RDS , API KEY, password = AWS Secrets Manager
@@ -404,4 +406,3 @@
   - global perimeter protection AWS Shield and WAF
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_374.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_374.png" alt="create-vpc" border="0" width="100%"></a>
   - hardware security module using industry-standard APIs = CloudHSM
-  
