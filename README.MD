@@ -404,3 +404,4 @@
   - global perimeter protection AWS Shield and WAF
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_374.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_374.png" alt="create-vpc" border="0" width="100%"></a>
   - hardware security module using industry-standard APIs = CloudHSM
+  
