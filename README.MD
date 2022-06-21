@@ -395,8 +395,9 @@
 
 # SECURITY, DEPLOYMENT & OPERATIONS
 
-- Exam Alert
-  <a href="./AWS-Certified-Solutions-Architect/Screenshot_370.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_370.png" alt="create-vpc" border="0" width="100%"></a>
+- ## Exam Alert
+  - <a href="./AWS-Certified-Solutions-Architect/Screenshot_370.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_370.png" alt="create-vpc" border="0" width="100%"></a>
   - rotation, integration, sceret, RDS , API KEY, password = AWS Secrets Manager
   - Shield and WAF in SAAC02 exam
   - Shield provide DDos protection
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_371.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_371.png" alt="create-vpc" border="0" width="100%"></a>
