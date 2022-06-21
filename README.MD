@@ -394,3 +394,6 @@
   - machine learning and SageMaker and you need to have access to a really high performance file system = FSx for Lustre
 
 # SECURITY, DEPLOYMENT & OPERATIONS
+
+- Exam Alert
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_370.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_370.png" alt="create-vpc" border="0" width="100%"></a>
