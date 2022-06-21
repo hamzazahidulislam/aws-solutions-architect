@@ -407,3 +407,4 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_374.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_374.png" alt="create-vpc" border="0" width="100%"></a>
   - hardware security module using industry-standard APIs = CloudHSM
   - classification of data within S3, so identifying data, discovering data, or reacting to sensitive data automatically, Then **_Macie_** is probably the product to use.
+  - security report = think inspecter
