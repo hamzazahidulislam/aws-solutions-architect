@@ -402,3 +402,4 @@
   - Shield provide DDos protection
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_371.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_371.png" alt="create-vpc" border="0" width="100%"></a>
   - global perimeter protection AWS Shield and WAF
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_374.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_374.png" alt="create-vpc" border="0" width="100%"></a>
