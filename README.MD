@@ -392,3 +392,5 @@
   - windows, SMB mentioned = FSx for Windows
   - Lustre, really high-end performance requirements, POSIX, high performance computing machine learning , big data = FSx for Lustre
   - machine learning and SageMaker and you need to have access to a really high performance file system = FSx for Lustre
+
+# SECURITY, DEPLOYMENT & OPERATIONS
