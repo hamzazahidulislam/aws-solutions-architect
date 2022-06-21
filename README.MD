@@ -385,6 +385,7 @@
   - TGW = deferent region or same and cross account
   - active directory required
   - AWS data sync 2 question must
-  - Intrigate with S3,EFS,EFS bi derectional and incremental transfer and schedule transfer= AWS data sync 
-  - Schedule , throtlink, automatic rewrites, compression , huge scale transfer , traditional file transfer protocol = data sync 
+  - Intrigate with S3,EFS,EFS bi derectional and incremental transfer and schedule transfer= AWS data sync
+  - Schedule , throtlink, automatic rewrites, compression , huge scale transfer , traditional file transfer protocol = data sync
   - Intrigates with directory service or self managed AD = Fsx
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_364.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_364.png" alt="create-vpc" border="0" width="100%"></a>
