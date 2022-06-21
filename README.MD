@@ -375,6 +375,7 @@
 - Site to site VPN backup for **DX**
 - transit gateway = highly available inter VPC router
 - so when you think stoage gateway, think extention, migration and backup
+- Storage gateway = migration and disaster recovery
 - Exam Alert
   - if you need more than 1.25 Gb per second, then you can't use VPNs.
   - virtual private gateway as a whole. So for all VPN connections connecting to that Virtual Private Gateway. and that's also 1.25 gigabits per second.
@@ -382,3 +383,8 @@
   - TGW
   - TGW can be use to create global network
   - TGW = deferent region or same and cross account
+  - active directory required
+  - AWS data sync 2 question must
+  - Intrigate with S3,EFS,EFS bi derectional and incremental transfer and schedule transfer= AWS data sync 
+  - Schedule , throtlink, automatic rewrites, compression , huge scale transfer , traditional file transfer protocol = data sync 
+  - Intrigates with directory service or self managed AD = Fsx
