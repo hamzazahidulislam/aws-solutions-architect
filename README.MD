@@ -391,3 +391,4 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_364.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_364.png" alt="create-vpc" border="0" width="100%"></a>
   - windows, SMB mentioned = FSx for Windows
   - Lustre, really high-end performance requirements, POSIX, high performance computing machine learning , big data = FSx for Lustre
+  - machine learning and SageMaker and you need to have access to a really high performance file system = FSx for Lustre
