@@ -418,3 +418,4 @@
 - Exam Alert
   - template is not a stack
   - reuses template then you choose to use Nested Stacks
+  - reuses the stack = Cross-Stack References
