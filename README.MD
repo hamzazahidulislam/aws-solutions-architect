@@ -412,3 +412,8 @@
   - (**CVE**) = inspecter
   - Disabling root logins over SSH. only using modern version numbers SSH Password, complexity checks and permissions on certain folders. = inspecter
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_385.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_385.png" alt="create-vpc" border="0" width="100%"></a>
+
+# Infrastructure as Code (CloudFormation)
+
+- Exam Alert
+  - template is not a stack
