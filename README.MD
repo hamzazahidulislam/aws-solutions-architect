@@ -409,3 +409,4 @@
   - classification of data within S3, so identifying data, discovering data, or reacting to sensitive data automatically, Then **_Macie_** is probably the product to use.
   - security report = think inspecter
   - network Reachability = inspecter
+  - (**CVE**) = inspecter
