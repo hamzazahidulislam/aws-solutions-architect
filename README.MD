@@ -410,4 +410,4 @@
   - security report = think inspecter
   - network Reachability = inspecter
   - (**CVE**) = inspecter
-  - Disabling root logins over SSH. only using modern version numbers SSH Password, complexity checks
+  - Disabling root logins over SSH. only using modern version numbers SSH Password, complexity checks and permissions on certain folders. = inspecter
