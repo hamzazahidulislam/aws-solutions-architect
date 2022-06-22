@@ -415,6 +415,7 @@
 
 # Infrastructure as Code (CloudFormation)
 
+- stack instance as a container for individual stack
 - Exam Alert
   - template is not a stack
   - reuses template then you choose to use Nested Stacks
