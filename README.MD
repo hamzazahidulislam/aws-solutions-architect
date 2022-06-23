@@ -421,3 +421,5 @@
   - reuses template then you choose to use Nested Stacks
   - reuses the stack = Cross-Stack References
   - where identity needs to use cloudformation to do things that they wouldn't otherwise be allowed to do outside of cloudformation. then **stack roles** is great solutionto allow this.
+
+# NOSQL Databases & DynamoDB
