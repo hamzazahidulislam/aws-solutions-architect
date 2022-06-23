@@ -423,3 +423,7 @@
   - where identity needs to use cloudformation to do things that they wouldn't otherwise be allowed to do outside of cloudformation. then **stack roles** is great solutionto allow this.
 
 # NOSQL Databases & DynamoDB
+
+- Exam Alert
+
+  - 60 items will be written per minute, and if you see that type of questions, you need to try and calculate how many per second
