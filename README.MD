@@ -427,3 +427,5 @@
 - Exam Alert
 
   - 60 items will be written per minute, and if you see that type of questions, you need to try and calculate how many per second
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_443.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_443.png" alt="create-vpc" border="0" width="100%"></a>
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_444.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_444.png" alt="create-vpc" border="0" width="100%"></a>
