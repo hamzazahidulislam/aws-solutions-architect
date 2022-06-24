@@ -432,3 +432,4 @@
   - local secondary indexes allow you to create an alternative view on the data that's in a base table by providing an alternative sort key.
   - use streams and Lamda together to implement a trigger architecture for DynamoDB
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_456.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_456.png" alt="create-vpc" border="0" width="100%"></a>
+  - if your application cannot tolerate eventual consistency, DAX is not going to be suitable.
