@@ -430,3 +430,4 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_443.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_443.png" alt="create-vpc" border="0" width="100%"></a>
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_444.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_444.png" alt="create-vpc" border="0" width="100%"></a>
   - local secondary indexes allow you to create an alternative view on the data that's in a base table by providing an alternative sort key.
+  - use streams and Lamda together to implement a trigger architecture for DynamoDB
