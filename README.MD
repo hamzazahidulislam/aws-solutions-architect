@@ -435,3 +435,6 @@
   - if your application cannot tolerate eventual consistency, DAX is not going to be suitable.
   - caching requirement with DynamoDB, then you should by default assume it is DAX
   - which talk about the data being stored inside S3, and if the data is structured, or semi-structured or unstructured and you need to perform ad hoc queries.
+
+# Practice Exam
+- Tier-1 (32TB)
