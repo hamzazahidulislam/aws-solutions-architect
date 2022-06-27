@@ -437,7 +437,8 @@
   - which talk about the data being stored inside S3, and if the data is structured, or semi-structured or unstructured and you need to perform ad hoc queries.
 
 # Practice Exam
+
 - Tier-1 (32TB)
 - GuardDuty? = VPC Flow Logs, DNS logs, CloudTrail events
-- When you batch 10 messages per operation (maximum), FIFO queues can support up to 3,000 messages per second **3*4=12**
-Therefore you need to process 4 messages per operation so that the FIFO queue can support up to 1200 messages per second, which is well within the peak rate.
+- When you batch **10 messages** per operation (maximum), FIFO queues can support **up to 3,000 messages** per second **3\*4=12**
+  Therefore you need to process 4 messages per operation so that the FIFO queue can support up to 1200 messages per second, which is well within the peak rate.
