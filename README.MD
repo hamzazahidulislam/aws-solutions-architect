@@ -439,3 +439,4 @@
 # Practice Exam
 - Tier-1 (32TB)
 - GuardDuty? = VPC Flow Logs, DNS logs, CloudTrail events
+- When you batch 10 messages per operation (maximum), FIFO queues can support up to 3,000 messages per second **3*4=12**
