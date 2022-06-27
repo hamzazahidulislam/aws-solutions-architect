@@ -443,3 +443,4 @@
 - When you batch **10 messages** per operation (maximum), FIFO queues can support **up to 3,000 messages** per second **3\*4=12**
   Therefore you need to process 4 messages per operation so that the FIFO queue can support up to 1200 messages per second, which is well within the peak rate.
 - SSE-KMS
+- Multi-AZ follows synchronous replication and spans at least two Availability Zones within a single region. Read replicas follow asynchronous replication and can be within an Availability Zone, Cross-AZ, or Cross-Region
