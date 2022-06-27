@@ -438,3 +438,4 @@
 
 # Practice Exam
 - Tier-1 (32TB)
+- GuardDuty? = VPC Flow Logs, DNS logs, CloudTrail events
