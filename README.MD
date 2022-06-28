@@ -453,3 +453,7 @@
   For example, suppose that you have an object that is **_15 days_** into a **_30-day_** retention period, and you PUT an object into Amazon S3 with the same name and a **_60-day_** retention period. In this case, your PUT succeeds, and Amazon S3 creates a new version of the object with a **_60-day_** retention period. The older version maintains its original retention period and becomes deletable in 15 days.
 
 - ### ECS with EC2 launch type is charged based on **_EC2 instances and EBS volumes_** used. ECS with Fargate launch type is charged based on **_vCPU_** and **_memory resources_** that the containerized application requests
+
+- ### Use io2 Block Express volumes on Nitro-based EC2 instances to achieve a maximum Provisioned IOPS of 256,000
+
+- ### Use io1/io2 volumes to enable Multi-Attach on Nitro-based EC2 instances
