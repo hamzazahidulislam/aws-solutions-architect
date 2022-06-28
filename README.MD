@@ -457,3 +457,5 @@
 - ### Use io2 Block Express volumes on Nitro-based EC2 instances to achieve a maximum Provisioned IOPS of 256,000
 
 - ### Use io1/io2 volumes to enable Multi-Attach on Nitro-based EC2 instances
+
+- Store the intermediary query results in S3 Standard storage class
