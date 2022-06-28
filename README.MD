@@ -446,3 +446,8 @@
 - SSE-KMS
 - Multi-AZ follows synchronous replication and spans at least two Availability Zones within a single region. Read replicas follow asynchronous replication and can be within an Availability Zone, Cross-AZ, or Cross-Region
 - (S3TA) you pay only for transfers that are accelerated
+- **When you apply a retention period to an object version explicitly, you specify a** `Retain Until Date` **for the object version** - You can place a retention period on an object version either explicitly or through a bucket default setting. **When you apply a retention period to an object version explicitly, you specify a** `Retain Until Date` for the object version. Amazon S3 stores the `Retain Until Date` setting in the object version's metadata and protects the object version until the retention period expires.
+
+- **Different versions of a single object can have different retention modes and periods** - Like all other Object Lock settings, retention periods apply to individual object versions. **Different versions of a single object can have different retention modes and periods**.
+
+  For example, suppose that you have an object that is **_15 days_** into a **_30-day_** retention period, and you PUT an object into Amazon S3 with the same name and a **_60-day_** retention period. In this case, your PUT succeeds, and Amazon S3 creates a new version of the object with a **_60-day_** retention period. The older version maintains its original retention period and becomes deletable in 15 days.
