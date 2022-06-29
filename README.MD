@@ -471,3 +471,5 @@
 - A read replica is billed as a standard DB Instance and at the same rates. You are not charged for the data transfer incurred in replicating data between your source DB instance and read replica within the same AWS Region.
 
 - Deploy the instances in three Availability Zones. Launch two instances in each Availability Zone
+
+-  in order = FIFO queues / FIFO SNS TOPIC
