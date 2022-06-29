@@ -478,3 +478,6 @@
 - AWS supports six types of policies: identity-based policies, resource-based policies, permissions boundaries, Organizations SCPs, ACLs, and session policies.
 
 - Take a snapshot of the database, copy it as an encrypted snapshot, and restore a database from the encrypted snapshot. Terminate the previous database
+
+-  Enable storage auto-scaling for RDS MySQL
+
