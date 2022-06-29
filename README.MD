@@ -480,3 +480,4 @@
 
 -  Enable storage auto-scaling for RDS MySQL
 
+- downstream analytics, no ongoing administration = **Kinesis Data Firehose**
