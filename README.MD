@@ -343,6 +343,7 @@
     - caching = CloudFront
     - AWS lambda@edge
     - AWS Global accelerator
+
 - ## SystemOps or Developer
 
   - API Gateway
@@ -478,10 +479,14 @@
 
 - Take a snapshot of the database, copy it as an encrypted snapshot, and restore a database from the encrypted snapshot. Terminate the previous database
 
--  Enable storage auto-scaling for RDS MySQL
+- Enable storage auto-scaling for RDS MySQL
 
 - downstream analytics, no ongoing administration = **Kinesis Data Firehose**
 
-Exam Alert:
+- ## Exam Alert:
 
-Please review the following note to understand the differences between Cognito User Pools and Cognito Identity Pools:
+- ### Please review the following note to understand the differences between Cognito User Pools and Cognito Identity Pools:
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_273.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_273.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_274.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_274.png" alt="create-vpc" border="0" width="100%"></a>
