@@ -473,3 +473,4 @@
 - Deploy the instances in three Availability Zones. Launch two instances in each Availability Zone
 
 -  in order = FIFO queues / FIFO SNS TOPIC
+- Set up a Route 53 failover record. Run application servers on EC2 instances behind an Application Load Balancer in an Auto Scaling group. Set up AWS Storage Gateway with stored volumes to back up data to S3
