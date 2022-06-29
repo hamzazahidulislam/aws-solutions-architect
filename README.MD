@@ -490,3 +490,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_273.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_273.png" alt="create-vpc" border="0" width="100%"></a>
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_274.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_274.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_275.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_275.png" alt="create-vpc" border="0" width="100%"></a>
