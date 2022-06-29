@@ -492,3 +492,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_274.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_274.png" alt="create-vpc" border="0" width="100%"></a>
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_275.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_275.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Create a Snowball job and target an S3 bucket. Create a lifecycle policy to immediately move data to Glacier Deep Archive
