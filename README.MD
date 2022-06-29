@@ -343,7 +343,6 @@
     - caching = CloudFront
     - AWS lambda@edge
     - AWS Global accelerator
-
 - ## SystemOps or Developer
 
   - API Gateway
