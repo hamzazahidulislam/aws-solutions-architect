@@ -465,3 +465,7 @@
 - Suspend the ReplaceUnhealthy process type for the Auto Scaling group and apply the maintenance patch to the instance. Once the instance is ready, you can manually set the instance's health status back to healthy and activate the ReplaceUnhealthy process type again
 
 - hub-and-spoke network with AWS Transit Gateway = **Build a shared services VPC**
+
+- RDS read replicas = There are data transfer charges for replicating data across AWS Regions
+
+- A read replica is billed as a standard DB Instance and at the same rates. You are not charged for the data transfer incurred in replicating data between your source DB instance and read replica within the same AWS Region.
