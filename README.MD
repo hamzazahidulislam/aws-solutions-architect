@@ -500,3 +500,7 @@
 - Cost of test file storage on S3 Standard < Cost of test file storage on EFS < Cost of test file storage on EBS
 
 - Create a VPC in an account and share one or more of its subnets with the other accounts using Resource Access Manager
+
+- single-tenant = Dedicated Instances
+
+- Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream source is already set as Kinesis Data
