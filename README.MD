@@ -481,3 +481,7 @@
 -  Enable storage auto-scaling for RDS MySQL
 
 - downstream analytics, no ongoing administration = **Kinesis Data Firehose**
+
+Exam Alert:
+
+Please review the following note to understand the differences between Cognito User Pools and Cognito Identity Pools:
