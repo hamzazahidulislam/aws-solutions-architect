@@ -496,3 +496,7 @@
 - Create a Snowball job and target an S3 bucket. Create a lifecycle policy to immediately move data to Glacier Deep Archive
 
 - ### You may see the Snowball device on the exam, just remember that the original Snowball device had 80TB of storage space.
+
+- Cost of test file storage on S3 Standard < Cost of test file storage on EFS < Cost of test file storage on EBS
+
+- Create a VPC in an account and share one or more of its subnets with the other accounts using Resource Access Manager
