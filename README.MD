@@ -494,3 +494,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_275.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_275.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Create a Snowball job and target an S3 bucket. Create a lifecycle policy to immediately move data to Glacier Deep Archive
+
+- ### You may see the Snowball device on the exam, just remember that the original Snowball device had 80TB of storage space.
