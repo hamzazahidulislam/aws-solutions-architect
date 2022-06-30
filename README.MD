@@ -526,3 +526,14 @@
 - Max I/O performance mode = Highly parallelized applications and workloads, such as big data analysis, media processing, and genomic analysis, can benefit from this mode.
 
 - If the master database is encrypted, the read replicas are encrypted
+
+- DFSR = FSx for Windows
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_362.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_362.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_363.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_363.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_364.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_364.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Create an ASG with a launch template
+
