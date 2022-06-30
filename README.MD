@@ -546,3 +546,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_96.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_96.png" alt="create-vpc" border="0" width="100%"></a>
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_97.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_97.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Set up an Aurora multi-master DB cluster
