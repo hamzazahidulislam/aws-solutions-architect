@@ -560,3 +560,9 @@
   - ### Remove the member account from the old organization. Send an invite to the member account from the new Organization. Accept the invite to the new organization from the member account
 
 - ### Create an IP match condition in the WAF to block the malicious IP address
+
+- ### Delete the existing standard queue and recreate it as a FIFO queue
+
+- ### Make sure that the name of the FIFO queue ends with the .fifo suffix
+
+- ### Make sure that the throughput for the target FIFO queue does not excee- d 3,000 messages per second
