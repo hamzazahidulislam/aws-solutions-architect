@@ -504,3 +504,11 @@
 - single-tenant = Dedicated Instances
 
 - Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream source is already set as Kinesis Data
+
+90USD = 338SA = 8296BD
+
+90.00USD = 8277.82
+
+ISLAMI BANK 92.5\*90=8325 AFTER TRANSECTION 3.6% VAT INCLUDE 8624.7
+
+1USD=91.98BD
