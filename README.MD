@@ -548,3 +548,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_97.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_97.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Set up an Aurora multi-master DB cluster
+
+- By default, an S3 object is owned by the AWS account that uploaded it. So the S3 bucket owner will not implicitly have access to the objects written by Redshift cluster
