@@ -537,3 +537,6 @@
 
 - Create an ASG with a launch template
 
+- Setup a lifecycle policy to transition the raw zone data into Glacier Deep Archive after 1 day of object creation
+
+- Use Glue ETL job to write the transformed data in the refined zone using a compressed file format
