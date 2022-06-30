@@ -512,3 +512,9 @@
 ISLAMI BANK 92.5\*90=8325 AFTER TRANSECTION 3.6% VAT INCLUDE 8624.7
 
 1USD=91.98BD
+
+- The health check grace period for the instance has not expired
+
+- The instance maybe in Impaired status
+
+- The instance has failed the ELB health check status
