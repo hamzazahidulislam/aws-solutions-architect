@@ -550,3 +550,5 @@
 - Set up an Aurora multi-master DB cluster
 
 - By default, an S3 object is owned by the AWS account that uploaded it. So the S3 bucket owner will not implicitly have access to the objects written by Redshift cluster
+
+- Use AWS Global Accelerator to distribute a portion of traffic to a particular deploymen
