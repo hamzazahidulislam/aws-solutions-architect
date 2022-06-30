@@ -524,3 +524,5 @@
 - Use Amazon Aurora Global Database to enable fast local reads with low latency in each region
 
 - Max I/O performance mode = Highly parallelized applications and workloads, such as big data analysis, media processing, and genomic analysis, can benefit from this mode.
+
+- If the master database is encrypted, the read replicas are encrypted
