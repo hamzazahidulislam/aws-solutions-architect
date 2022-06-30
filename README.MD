@@ -542,3 +542,7 @@
 - Use Glue ETL job to write the transformed data in the refined zone using a compressed file format
 
 - Hadoop cluster = Partition placement group
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_96.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_96.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_97.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_97.png" alt="create-vpc" border="0" width="100%"></a>
