@@ -518,3 +518,5 @@ ISLAMI BANK 92.5\*90=8325 AFTER TRANSECTION 3.6% VAT INCLUDE 8624.7
 - The instance maybe in Impaired status
 
 - The instance has failed the ELB health check status
+
+- Create an encrypted snapshot of the database, share the snapshot, and allow access to the AWS Key Management Service (AWS KMS) encryption key
