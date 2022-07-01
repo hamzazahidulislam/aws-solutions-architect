@@ -590,3 +590,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_195.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_195.png" alt="create-vpc" border="0" width="100%"></a>
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_197.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_197.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Use VPC endpoint to access Amazon SQS
