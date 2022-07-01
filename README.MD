@@ -600,3 +600,5 @@
   - SCPs affect all users and roles in the attached accounts, including the root user.
 
   - SCPs do not affect any service-linked role.
+
+- orchestration solution = AWS Step Functions
