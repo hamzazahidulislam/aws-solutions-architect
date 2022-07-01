@@ -576,3 +576,9 @@
   - Amazon Kinesis Data Streams (KDS) is a massively scalable and durable real-time data streaming service. KDS can continuously capture gigabytes of data per second from hundreds of thousands of sources such as website **clickstreams, database event streams, financial transactions, social media feeds, IT logs, and location-tracking events.** The data collected is available in milliseconds to enable real-time analytics use cases such as real-time dashboards, real-time anomaly detection, dynamic pricing, and more
 
 - High Performance Computing (HPC) = Elastic Fabric Adapter
+
+- You can copy an AMI across AWS Regions
+
+- You can share an AMI with another AWS account
+
+- Copying an AMI backed by an encrypted snapshot cannot result in an unencrypted target snapshot
