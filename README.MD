@@ -616,3 +616,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_420.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_420.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Create a Virtual Private Gateway on the AWS side of the VPN and a Customer Gateway on the on-premises side of the VPN
+
+- Create an alias record for covid19survey.com that routes traffic to www.covid19survey.com
