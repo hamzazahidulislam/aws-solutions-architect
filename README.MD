@@ -592,3 +592,11 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_197.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_197.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Use VPC endpoint to access Amazon SQS
+
+- ### Please note the following effects on permissions vis-a-vis the SCPs:
+
+  - If a user or role has an IAM permission policy that grants access to an action that is either not allowed or explicitly denied by the applicable SCPs, the user or role can't perform that action.
+
+  - SCPs affect all users and roles in the attached accounts, including the root user.
+
+  - SCPs do not affect any service-linked role.
