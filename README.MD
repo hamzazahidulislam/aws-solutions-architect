@@ -582,3 +582,5 @@
 - You can share an AMI with another AWS account
 
 - Copying an AMI backed by an encrypted snapshot cannot result in an unencrypted target snapshot
+
+- ### Amazon EC2 Auto Scaling chooses the policy that provides the largest capacity, so policy with the custom metric is triggered, and two new instances will be launched by the ASG
