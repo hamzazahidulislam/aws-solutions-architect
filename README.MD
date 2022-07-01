@@ -660,3 +660,5 @@
 - Configure a NAT Gateway in the public subnet of the VPC
 
 - With **cross-zone** load balancing **enabled**, one instance in Availability Zone A **receives 20% traffic** and four instances in Availability Zone B **receive 20% traffic** each. With cross-zone load balancing **disabled**, one instance in Availability Zone A **receives 50% traffic** and four instances in Availability Zone B **receive 12.5%** traffic each
+
+- Use SQS long polling to retrieve messages from your Amazon SQS queues
