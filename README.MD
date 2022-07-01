@@ -652,3 +652,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_357.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_357.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Use message timers to postpone the delivery of certain messages to the queue by one minute
+
+- Use Global Accelerator to provide a low latency way to distribute live sports results = for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP. Therefore,
