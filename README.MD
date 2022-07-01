@@ -602,3 +602,9 @@
   - SCPs do not affect any service-linked role.
 
 - orchestration solution = AWS Step Functions
+
+- NAT instance can be used as a bastion server
+
+- Security Groups can be associated with a NAT instance
+
+- NAT instance supports port forwarding
