@@ -641,12 +641,14 @@
 
     - AWS Directory Service for Microsoft Active Directory (aka AWS Managed Microsoft AD) is powered by an actual Microsoft Windows Server Active Directory (AD), managed by AWS. With AWS Managed Microsoft AD, you can run directory-aware workloads in the AWS Cloud such as SQL Server-based applications. You can also configure a trust relationship between AWS Managed Microsoft AD in the AWS Cloud and your existing on-premises Microsoft Active Directory, providing users and groups with access to resources in either domain, using single sign-on (SSO).
 
-<a href="./AWS-Certified-Solutions-Architect/Screenshot_353.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_353.png" alt="create-vpc" border="0" width="100%"></a>
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_353.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_353.png" alt="create-vpc" border="0" width="100%"></a>
 
-<a href="./AWS-Certified-Solutions-Architect/Screenshot_354.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_354.png" alt="create-vpc" border="0" width="100%"></a>
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_354.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_354.png" alt="create-vpc" border="0" width="100%"></a>
 
-<a href="./AWS-Certified-Solutions-Architect/Screenshot_355.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_355.png" alt="create-vpc" border="0" width="100%"></a>
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_355.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_355.png" alt="create-vpc" border="0" width="100%"></a>
 
-<a href="./AWS-Certified-Solutions-Architect/Screenshot_356.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_356.png" alt="create-vpc" border="0" width="100%"></a>
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_356.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_356.png" alt="create-vpc" border="0" width="100%"></a>
 
-<a href="./AWS-Certified-Solutions-Architect/Screenshot_357.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_357.png" alt="create-vpc" border="0" width="100%"></a>
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_357.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_357.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Use message timers to postpone the delivery of certain messages to the queue by one minute
