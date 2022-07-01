@@ -584,3 +584,9 @@
 - Copying an AMI backed by an encrypted snapshot cannot result in an unencrypted target snapshot
 
 - ### Amazon EC2 Auto Scaling chooses the policy that provides the largest capacity, so policy with the custom metric is triggered, and two new instances will be launched by the ASG
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_192.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_192.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_195.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_195.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_197.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_197.png" alt="create-vpc" border="0" width="100%"></a>
