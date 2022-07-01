@@ -497,7 +497,7 @@
 
 - ### You may see the Snowball device on the exam, just remember that the original Snowball device had 80TB of storage space.
 
-- Cost of test file storage on S3 Standard < Cost of test file storage on EFS < Cost of test file storage on EBS
+- Cost of test file storage on S3 Standard < Cost of test file storage on EFS <a Cost of test file storage on EBS
 
 - Create a VPC in an account and share one or more of its subnets with the other accounts using Resource Access Manager
 
@@ -640,3 +640,13 @@
   - AWS Directory Service provides multiple ways to use Amazon Cloud Directory and Microsoft Active Directory (AD) with other AWS services.
 
     - AWS Directory Service for Microsoft Active Directory (aka AWS Managed Microsoft AD) is powered by an actual Microsoft Windows Server Active Directory (AD), managed by AWS. With AWS Managed Microsoft AD, you can run directory-aware workloads in the AWS Cloud such as SQL Server-based applications. You can also configure a trust relationship between AWS Managed Microsoft AD in the AWS Cloud and your existing on-premises Microsoft Active Directory, providing users and groups with access to resources in either domain, using single sign-on (SSO).
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_353.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_353.png" alt="create-vpc" border="0" width="100%"></a>
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_354.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_354.png" alt="create-vpc" border="0" width="100%"></a>
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_355.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_355.png" alt="create-vpc" border="0" width="100%"></a>
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_356.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_356.png" alt="create-vpc" border="0" width="100%"></a>
+
+<a href="./AWS-Certified-Solutions-Architect/Screenshot_357.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_357.png" alt="create-vpc" border="0" width="100%"></a>
