@@ -566,3 +566,5 @@
 - ### Make sure that the name of the FIFO queue ends with the .fifo suffix
 
 - ### Make sure that the throughput for the target FIFO queue does not excee- d 3,000 messages per second
+
+- Use VPC sharing to share one or more subnets with other AWS accounts belonging to the same parent organization from AWS Organizations
