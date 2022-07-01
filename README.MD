@@ -656,3 +656,5 @@
 - Use Global Accelerator to provide a low latency way to distribute live sports results = for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP. Therefore,
 
 - Provision Amazon Aurora Global Database = RPO, RTO
+
+- Configure a NAT Gateway in the public subnet of the VPC
