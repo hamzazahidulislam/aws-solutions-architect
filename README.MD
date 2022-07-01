@@ -608,3 +608,9 @@
 - Security Groups can be associated with a NAT instance
 
 - NAT instance supports port forwarding
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_418.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_418.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_419.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_419.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_420.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_420.png" alt="create-vpc" border="0" width="100%"></a>
