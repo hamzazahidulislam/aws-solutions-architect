@@ -758,3 +758,5 @@
     If cross-zone load balancing is disabled: 1. Each of the four targets in AZ-A receives 12.5% of the traffic. 2. Each of the six targets in AZ-B receives 8.3% of the traffic.
 
     This is because each load balancer node can route its 50% of the client traffic only to targets in its Availability Zone.
+
+- asynchronously decouple the architecture? = Use Amazon EventBridge to decouple the system architecture
