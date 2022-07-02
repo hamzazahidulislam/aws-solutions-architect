@@ -704,3 +704,9 @@
 
 - EBS
   <a href="./AWS-Certified-Solutions-Architect/assets/pt1-q63-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt1-q63-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
+
+- CloudFront can route to multiple origins based on the content type
+
+- Use an origin group with primary and secondary origins to configure CloudFront for high availability and failover
+
+- Use field level encryption in CloudFront to protect sensitive data for specific content
