@@ -863,3 +863,5 @@
   - Configure an Amazon S3 bucket to enable MFA (Multi Factor Authentication) delete
 
   - Close the company's AWS account
+
+- Use the Auto Scaling group lifecycle hook to put the instance in a wait state and launch a custom script that installs the proprietary forensic tools and performs a pre-activation status check
