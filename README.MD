@@ -885,3 +885,5 @@
 - Distribute the static content through Amazon S3
 
 - ### By default, cross-zone load balancing is **enabled** for Application Load Balancer and **disabled** for Network Load Balancer
+
+- Auto Scaling group scheduled action
