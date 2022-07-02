@@ -788,3 +788,6 @@
   - ElastiCache for Redis supports replication, high availability, and cluster sharding right out of the box. IAM Auth is not supported by ElastiCache.
 
   - Redis authentication tokens enable Redis to require a token (password) before allowing clients to execute commands, thereby improving data security.
+
+- Trust policy 
+  - Trust policies define which principal entities (accounts, users, roles, and federated users) can assume the role. An IAM role is both an identity and a resource that supports resource-based policies. For this reason, you must attach both a trust policy and an identity-based policy to an IAM role. The IAM service supports only one type of resource-based policy called a role trust policy, which is attached to an IAM role.
