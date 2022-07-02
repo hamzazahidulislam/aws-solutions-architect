@@ -871,3 +871,9 @@
   - Auto Scaling group lifecycle hooks enable you to perform custom actions as the Auto Scaling group launches or terminates instances. Lifecycle hooks enable you to perform custom actions by pausing instances as an Auto Scaling group launches or terminates them. When an instance is paused, it remains in a wait state either until you complete the lifecycle action using the complete-lifecycle-action command or the CompleteLifecycleAction operation, or until the timeout period ends (one hour by default). For example, you could install or configure software on newly launched instances, or download log files from an instance before it terminates.
 
 - Amazon EC2 instance store for maximum performance, Amazon S3 for durable data storage, and Amazon S3 Glacier for archival storage
+
+- As a solutions architect, can you help him figure out the allowed formats for the Amazon S3 website endpoints?
+
+  - ### `http://bucket-name.s3-website.Region.amazonaws.com`
+
+  - ### `http://bucket-name.s3-website-Region.amazonaws.com`
