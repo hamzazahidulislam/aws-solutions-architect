@@ -791,3 +791,7 @@
 
 - Trust policy 
   - Trust policies define which principal entities (accounts, users, roles, and federated users) can assume the role. An IAM role is both an identity and a resource that supports resource-based policies. For this reason, you must attach both a trust policy and an identity-based policy to an IAM role. The IAM service supports only one type of resource-based policy called a role trust policy, which is attached to an IAM role.
+
+- Use Amazon EKS with AWS Fargate for serverless orchestration of the containerized services
+
+- Use Amazon ECS with AWS Fargate for serverless orchestration of the containerized services
