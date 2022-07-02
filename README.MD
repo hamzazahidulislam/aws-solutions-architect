@@ -881,3 +881,5 @@
 - Install a CloudWatch Logs agents on the EC2 instances to send logs to CloudWatch
 
 - A process replaces an existing object and immediately tries to read it. Amazon S3 always returns the latest version of the object
+
+- Distribute the static content through Amazon S3
