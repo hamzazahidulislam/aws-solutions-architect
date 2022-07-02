@@ -678,3 +678,5 @@
 - By default,
 - Lambda functions always operate from an AWS-owned VPC and hence have access to any public internet address or public AWS APIs. Once a Lambda function is VPC-enabled,
 - it will need a route through a NAT gateway in a public subnet to access public resources
+
+- Use S3 Object Lock
