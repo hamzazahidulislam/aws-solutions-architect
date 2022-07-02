@@ -722,3 +722,5 @@
     The default termination policy behavior is as follows: 1. Determine which Availability Zones have the most instances and at least one instance that is not protected from scale-in. 2. Determine which instances to terminate to align the remaining instances to the allocation strategy for the On-Demand or Spot Instance that is terminating. 3. Determine whether any of the instances use the oldest launch template or configuration: 3.a. Determine whether any of the instances use the oldest launch template unless there are instances that use a launch configuration. 3.b. Determine whether any of the instances use the oldest launch configuration. 4. After applying all of the above criteria, if there are multiple unprotected instances to terminate, determine which instances are closest to the next billing hour.
 
     Per the given use-case, **AZs will be balanced first**, then the instance with the **oldest launch configuration within that AZ** will be terminated.
+
+- Use DynamoDB DAX
