@@ -877,3 +877,5 @@
   - ### `http://bucket-name.s3-website.Region.amazonaws.com`
 
   - ### `http://bucket-name.s3-website-Region.amazonaws.com`
+
+- Install a CloudWatch Logs agents on the EC2 instances to send logs to CloudWatch
