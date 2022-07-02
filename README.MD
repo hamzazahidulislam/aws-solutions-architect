@@ -748,3 +748,13 @@
 - Opt for Multi-AZ configuration with automatic failover functionality to help mitigate failure
 
 - each other = VPC peering
+
+- Each of the four targets in AZ-A receives 12.5% of the traffic
+
+  - The nodes for your load balancer distribute requests from clients to registered targets. When cross-zone load balancing is enabled, each load balancer node distributes traffic across the registered targets in all enabled Availability Zones. When cross-zone load balancing is disabled, each load balancer node distributes traffic only across the registered targets in its Availability Zone.
+
+    Route 53 will distribute traffic such that each load balancer node receives 50% of the traffic from the clients.
+
+    If cross-zone load balancing is disabled: 1. Each of the four targets in AZ-A receives 12.5% of the traffic. 2. Each of the six targets in AZ-B receives 8.3% of the traffic.
+
+    This is because each load balancer node can route its 50% of the client traffic only to targets in its Availability Zone.
