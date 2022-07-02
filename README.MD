@@ -798,3 +798,5 @@
 - Use Amazon ECS with AWS Fargate for serverless orchestration of the containerized services
 
 - Set up AWS Global Accelerator. Register the ALBs in different Regions to the Global Accelerator. Configure the on-premises firewall's rule to allow static IP addresses associated with the Global Accelerator
+
+- Create an AMI after installing the software and copy the AMI across all Regions. Use this Region-specific AMI to run the recovery process in the respective Regions
