@@ -724,3 +724,5 @@
     Per the given use-case, **AZs will be balanced first**, then the instance with the **oldest launch configuration within that AZ** will be terminated.
 
 - Use DynamoDB DAX
+
+- **Use a Network Load Balancer with an Auto Scaling Group (ASG)**
