@@ -738,3 +738,6 @@
 - ### Leverage AWS Database Migration Service (AWS DMS) as a bridge between Amazon S3 and Amazon Kinesis Data Streams
 
 - Create a CloudFront distribution
+
+- As a solutions architect, you would like to adhere to the security pillar of the well-architected framework. How do you configure the security group of the EC2 instances to only allow traffic coming from the ALB?
+  - Add a rule to authorize the security group of the ALB
