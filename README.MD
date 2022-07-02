@@ -662,3 +662,8 @@
 - With **cross-zone** load balancing **enabled**, one instance in Availability Zone A **receives 20% traffic** and four instances in Availability Zone B **receive 20% traffic** each. With cross-zone load balancing **disabled**, one instance in Availability Zone A **receives 50% traffic** and four instances in Availability Zone B **receive 12.5%** traffic each
 
 - Use SQS long polling to retrieve messages from your Amazon SQS queues
+  - Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+
+Amazon SQS provides short polling and long polling to receive messages from a queue. By default, queues use short polling. With short polling, Amazon SQS sends the response right away, even if the query found no messages. With long polling, Amazon SQS sends a response after it collects at least one available message, up to the maximum number of messages specified in the request. Amazon SQS sends an empty response only if the polling wait time expires.
+
+Long polling makes it inexpensive to retrieve messages from your Amazon SQS queue as soon as the messages are available. Using long polling can reduce the cost of using SQS because you can reduce the number of empty receives.
