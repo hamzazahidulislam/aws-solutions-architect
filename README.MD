@@ -774,3 +774,7 @@
 - Create a Lifecycle Policy to transition objects to S3 Standard IA using a prefix after 45 days
 
 - Create a Lifecycle Policy to transition all objects to Glacier after 180 days
+
+- Check if the route table is configured with IGW
+
+- Check if the security groups allows ping from the source
