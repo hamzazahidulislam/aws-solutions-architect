@@ -812,3 +812,46 @@
 - Use AWS Cost Explorer Resource Optimization to get a report of EC2 instances that are either idle or have low utilization and use AWS Compute Optimizer to look at instance type recommendations
 
 - Create a new launch configuration with the new AMI ID
+
+- Use AWS Database Migration Service to replicate the data from the databases into Amazon Redshift
+
+---
+
+- DynamoDB Streams + Lambda
+
+---
+
+- Use SSL certificates with SNI
+
+---
+
+- Enable API Gateway Caching
+
+---
+
+- large fleets of Snowball devices.  = AWS OpsHub
+- central hub = Use AWS Transit Gateway to connect the Amazon VPCs to the on-premises networks
+
+- Long polling makes it inexpensive to retrieve messages from your Amazon SQS queue as soon as the messages are available. Using long polling can reduce the cost of using SQS because you can reduce the number of empty receives.
+
+---
+
+- A recovered instance is identical to the original instance, including the instance ID, private IP addresses, Elastic IP addresses, and all instance metadata
+
+- If your instance has a public IPv4 address, it retains the public IPv4 address after recovery
+
+---
+
+- Traffic is routed to instances using the primary private IP address specified in the primary network interface for the instance
+
+---
+
+- Launch AWS Global Accelerator and create endpoints for all the Regions. Register the ALBs of each Region to the corresponding endpoints
+
+---
+
+- Connection Draining
+
+- Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
+
+- Amazon SQS provides short polling and long polling to receive messages from a queue. By default, queues use short polling. With short polling, Amazon SQS sends the response right away, even if the query found no messages. With long polling, Amazon SQS sends a response after it collects at least one available message, up to the maximum number of messages specified in the request. Amazon SQS sends an empty response only if the polling wait time expires.
