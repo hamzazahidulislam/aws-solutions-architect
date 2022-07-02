@@ -736,3 +736,5 @@
 - Use multi-part upload feature of Amazon S3
 
 - ### Leverage AWS Database Migration Service (AWS DMS) as a bridge between Amazon S3 and Amazon Kinesis Data Streams
+
+- Create a CloudFront distribution
