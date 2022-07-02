@@ -710,3 +710,15 @@
 - Use an origin group with primary and secondary origins to configure CloudFront for high availability and failover
 
 - Use field level encryption in CloudFront to protect sensitive data for specific content
+
+- ### The instance with the oldest launch configuration will be terminated in AZ-B
+
+  - Amazon EC2 Auto Scaling helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for your application. You create collections of EC2 instances, called Auto Scaling groups. You can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that your group never goes below this size.
+
+    With each Auto Scaling group, you can control when it adds instances (referred to as scaling out) or removes instances (referred to as scaling in) from your network architecture.
+
+    The default termination policy is designed to help ensure that your instances span Availability Zones evenly for high availability. The default policy is kept generic and flexible to cover a range of scenarios.
+
+    The default termination policy behavior is as follows: 1. Determine which Availability Zones have the most instances and at least one instance that is not protected from scale-in. 2. Determine which instances to terminate to align the remaining instances to the allocation strategy for the On-Demand or Spot Instance that is terminating. 3. Determine whether any of the instances use the oldest launch template or configuration: 3.a. Determine whether any of the instances use the oldest launch template unless there are instances that use a launch configuration. 3.b. Determine whether any of the instances use the oldest launch configuration. 4. After applying all of the above criteria, if there are multiple unprotected instances to terminate, determine which instances are closest to the next billing hour.
+
+    Per the given use-case, AZs will be balanced first, then the instance with the oldest launch configuration within that AZ will be terminated.
