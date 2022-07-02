@@ -883,3 +883,5 @@
 - A process replaces an existing object and immediately tries to read it. Amazon S3 always returns the latest version of the object
 
 - Distribute the static content through Amazon S3
+
+- ### By default, cross-zone load balancing is **enabled** for Application Load Balancer and **disabled** for Network Load Balancer
