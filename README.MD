@@ -770,3 +770,7 @@
 - Amazon EC2
 
   - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment. AWS Batch can be used to plan, schedule, and execute your batch computing workloads on Amazon EC2 Instances. Amazon EC2 is the right choice as it can accommodate batch processing and run customized scripts, as is the needed requirement.
+
+- Create a Lifecycle Policy to transition objects to S3 Standard IA using a prefix after 45 days
+
+- Create a Lifecycle Policy to transition all objects to Glacier after 180 days
