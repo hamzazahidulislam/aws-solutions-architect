@@ -1025,3 +1025,5 @@
   <a href="./AWS-Certified-Solutions-Architect/assets/pt5-q22-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt5-q22-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
 
 - The Auto Scaling group is using EC2 based health check and the Application Load Balancer is using ALB based health check
+
+- The CNAME record will be updated to point to the standby DB
