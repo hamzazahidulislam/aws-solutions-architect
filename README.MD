@@ -1011,3 +1011,7 @@
 - Use WAF geo match statement listing the countries that you want to block
 
 - Use WAF IP set statement that specifies the IP addresses that you want to allow through
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_372.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_372.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_373.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_373.png" alt="create-vpc" border="0" width="100%"></a>
