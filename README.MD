@@ -909,4 +909,27 @@
 - The EBS volume was configured as the root volume of the Amazon EC2 instance. On termination of the instance, the default behavior is to also terminate the attached root volume
 
 - AES-256 = SSE-C
+
   - SSE-C - With Server-Side Encryption with Customer-Provided Keys (SSE-C), you manage the encryption keys and Amazon S3 manages the encryption, as it writes to disks, and decryption when you access your objects. With SSE-C, the startup can still provide the encryption key but let AWS do the encryption. Therefore, this is the correct option.
+
+- Create an Application Load Balancer
+
+  - Application Load Balancer can automatically distribute incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.
+
+  - If your application is composed of several individual services, an Application Load Balancer can route a request to a service based on the content of the request.
+
+  - Here are the different types -
+
+  - Host-based Routing: You can route a client request based on the Host field of the HTTP header allowing you to route to multiple domains from the same load balancer. You can use host conditions to define rules that route requests based on the hostname in the host header (also known as host-based routing). This enables you to support multiple domains using a single load balancer. Example hostnames: example.com test.example.com _.example.com The rule _.example.com matches test.example.com but doesn't match example.com.
+
+  - Path-based Routing: You can route a client request based on the URL path of the HTTP header. You can use path conditions to define rules that route requests based on the URL in the request (also known as path-based routing). Example path patterns: /img/\* /img//pics The path pattern is used to route requests but does not alter them. For example, if a rule has a path pattern of /img/, the rule would forward a request for /img/picture.jpg to the specified target group as a request for /img/picture.jpg. The path pattern is applied only to the path of the URL, not to its query parameters.
+
+  - HTTP header-based routing: You can route a client request based on the value of any standard or custom HTTP header.
+
+  - HTTP method-based routing: You can route a client request based on any standard or custom HTTP method.
+
+  - Query string parameter-based routing: You can route a client request based on query string or query parameters.
+
+  - Source IP address CIDR-based routing: You can route a client request based on source IP address CIDR from where the request originates.
+
+  - Path based routing and host based routing are only available for the Application Load Balancer (ALB). Therefore this is the correct option for the given use-case.
