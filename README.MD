@@ -887,3 +887,7 @@
 - ### By default, cross-zone load balancing is **enabled** for Application Load Balancer and **disabled** for Network Load Balancer
 
 - Auto Scaling group scheduled action
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_94.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_94.png" alt="create-vpc" border="0" width="100%"></a>
+
+  <a href="./AWS-Certified-Solutions-Architect/Screenshot_95.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_95.png" alt="create-vpc" border="0" width="100%"></a>
