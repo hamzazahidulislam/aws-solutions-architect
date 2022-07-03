@@ -976,3 +976,4 @@
 
   - S3 **cant** encrypt object metadata by using Server-Side Encryption
 
+- Setup a CloudWatch alarm to monitor the health status of the instance. In case of an Instance Health Check failure, an EC2 Reboot CloudWatch Alarm Action can be used to reboot the instance
