@@ -972,5 +972,7 @@
 
 - Data moving between the volume and the instance is encrypted
 
-- S3 can encrypt object metadata by using Server-Side Encryption
+- Can you help the team identify the INCORRECT option from the choices below?
+
+  - S3 **cant** encrypt object metadata by using Server-Side Encryption
 
