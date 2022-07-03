@@ -947,3 +947,11 @@
   - The maximum size of a data blob (the data payload before Base64-encoding) within one record is 1 megabyte (MB). Each shard can support up to 1000 PUT records per second.
 
   - Kinesis is the right answer here, as by providing a partition key in your message, you can guarantee ordered messages for a specific sensor, even if your stream is sharded.
+
+- Use Elasticache for distributed cache-based session management
+
+  - Amazon ElastiCache can be used as a distributed in-memory cache for session management. Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-Source compatible in-memory data stores in the cloud. Session stores can be set up using both Memcached or Redis for ElastiCache.
+
+  - Amazon ElastiCache for Redis is a great choice for real-time transactional and analytical processing use cases such as caching, chat/messaging, gaming leaderboards, geospatial, machine learning, media streaming, queues, real-time analytics, and session store.
+
+  - Amazon ElastiCache for Memcached is a Memcached-compatible in-memory key-value store service that can be used as a cache or a data store. Session stores are easy to create with Amazon ElastiCache for Memcached.
