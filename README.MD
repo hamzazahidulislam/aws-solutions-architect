@@ -983,3 +983,5 @@
 - The ASG should be configured with the minimum capacity set to 4, with 2 instances each in two different Availability Zones. The maximum capacity of the ASG should be set to 6
 
 - EBS volumes are AZ locked
+
+- Use S3 Glacier vault to store the sensitive archived data and then use a vault lock policy to enforce compliance controls
