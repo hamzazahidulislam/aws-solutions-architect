@@ -993,3 +993,7 @@
 - Which of the following targets are NOT supported by Kinesis Data Firehose?
 
   - Amazon EMR
+
+- Network Load Balancer
+
+  - Network Load Balancer is best suited for use-cases involving low latency and high throughput workloads that involve scaling to millions of requests per second. Network Load Balancer operates at the connection level (Layer 4), routing connections to targets - Amazon EC2 instances, microservices, and containers – within Amazon Virtual Private Cloud (Amazon VPC) based on IP protocol data.
