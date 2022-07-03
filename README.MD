@@ -961,3 +961,5 @@
 - ### `http://169.254.169.254/latest/meta-data/public-ipv4`
 
 - Only Standard SQS queue is allowed as an Amazon S3 event notification destination, whereas FIFO SQS queue is not allowed
+
+- Use S3 Intelligent-Tiering storage class to optimize the S3 storage costs
