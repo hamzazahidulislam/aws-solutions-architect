@@ -1017,3 +1017,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_373.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_373.png" alt="create-vpc" border="0" width="100%"></a>
 
 - Create a CloudFront distribution for the application on Amazon EC2 instances. Deploy AWS WAF on Amazon CloudFront to provide the necessary safety measures
+
+- Use Redshift Spectrum to create Redshift cluster tables pointing to the underlying historical data in S3. The analytics team can then query this historical data to cross-reference with the daily reports from Redshift
