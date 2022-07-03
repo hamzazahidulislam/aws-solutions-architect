@@ -905,3 +905,5 @@
 - EC2 Auto Scaling groups can span Availability Zones, but not AWS regions
 
 - Data is not automatically copied from existing instances to a new dynamically created instance
+
+- The EBS volume was configured as the root volume of the Amazon EC2 instance. On termination of the instance, the default behavior is to also terminate the attached root volume
