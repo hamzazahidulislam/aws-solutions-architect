@@ -1019,3 +1019,7 @@
 - Create a CloudFront distribution for the application on Amazon EC2 instances. Deploy AWS WAF on Amazon CloudFront to provide the necessary safety measures
 
 - Use Redshift Spectrum to create Redshift cluster tables pointing to the underlying historical data in S3. The analytics team can then query this historical data to cross-reference with the daily reports from Redshift
+
+- Amazon EC2 with EBS volume of Provisioned IOPS SSD (io1) type = PostgreSQL
+
+  <a href="./AWS-Certified-Solutions-Architect/assets/pt5-q22-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt5-q22-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
