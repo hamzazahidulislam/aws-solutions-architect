@@ -965,3 +965,9 @@
 - Use S3 Intelligent-Tiering storage class to optimize the S3 storage costs
 
 - Amazon S3 Glacier Deep Archive
+
+- Data at rest inside the volume is encrypted
+
+- Any snapshot created from the volume is encrypted
+
+- Data moving between the volume and the instance is encrypted
