@@ -971,3 +971,6 @@
 - Any snapshot created from the volume is encrypted
 
 - Data moving between the volume and the instance is encrypted
+
+- S3 can encrypt object metadata by using Server-Side Encryption
+
