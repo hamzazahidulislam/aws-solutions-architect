@@ -985,3 +985,7 @@
 - EBS volumes are AZ locked
 
 - Use S3 Glacier vault to store the sensitive archived data and then use a vault lock policy to enforce compliance controls
+
+- Use Amazon CloudFront distribution with origin as the S3 bucket. This would speed up uploads as well as downloads for the video files
+
+- Enable Amazon S3 Transfer Acceleration for the S3 bucket. This would speed up uploads as well as downloads for the video files
