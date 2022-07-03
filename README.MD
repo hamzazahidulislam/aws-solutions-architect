@@ -933,3 +933,5 @@
   - Source IP address CIDR-based routing: You can route a client request based on source IP address CIDR from where the request originates.
 
   - Path based routing and host based routing are only available for the Application Load Balancer (ALB). Therefore this is the correct option for the given use-case.
+
+- Transfer the on-premises data into multiple Snowball Edge Storage Optimized devices. Copy the Snowball Edge data into Amazon S3 and create a lifecycle policy to transition the data into AWS Glacier
