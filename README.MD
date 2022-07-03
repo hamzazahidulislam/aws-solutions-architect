@@ -1001,3 +1001,9 @@
 - RDS MySQL - IAM database authentication works with MySQL and PostgreSQL.
 
 - RDS PostGreSQL - IAM database authentication works with MySQL and
+
+- Use a dead-letter queue to handle message processing failures
+
+- Use Web Application Firewall (WAF) with CloudFront distribution
+
+  - AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources. AWS WAF gives you control over how traffic reaches your applications by enabling you to create security rules that block common attack patterns, such as SQL injection or cross-site scripting, and rules that filter out specific traffic patterns you define.
