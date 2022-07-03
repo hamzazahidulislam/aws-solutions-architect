@@ -1015,3 +1015,5 @@
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_372.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_372.png" alt="create-vpc" border="0" width="100%"></a>
 
   <a href="./AWS-Certified-Solutions-Architect/Screenshot_373.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_373.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Create a CloudFront distribution for the application on Amazon EC2 instances. Deploy AWS WAF on Amazon CloudFront to provide the necessary safety measures
