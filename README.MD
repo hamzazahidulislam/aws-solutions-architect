@@ -989,3 +989,7 @@
 - Use Amazon CloudFront distribution with origin as the S3 bucket. This would speed up uploads as well as downloads for the video files
 
 - Enable Amazon S3 Transfer Acceleration for the S3 bucket. This would speed up uploads as well as downloads for the video files
+
+- Which of the following targets are NOT supported by Kinesis Data Firehose?
+
+  - Amazon EMR
