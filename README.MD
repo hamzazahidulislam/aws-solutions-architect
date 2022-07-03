@@ -981,3 +981,5 @@
 - Use AWS DataSync to migrate existing data to Amazon S3 and then use File Gateway to retain access to the migrated data for ongoing updates from the on-premises applications
 
 - The ASG should be configured with the minimum capacity set to 4, with 2 instances each in two different Availability Zones. The maximum capacity of the ASG should be set to 6
+
+- EBS volumes are AZ locked
