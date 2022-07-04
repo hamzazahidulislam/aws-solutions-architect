@@ -1104,3 +1104,5 @@
     - Differences between Dedicated Hosts and Dedicated Instances:
 
       <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q21-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q21-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
+
+- RDS applies OS updates by performing maintenance on the standby, then promoting the standby to primary, and finally performing maintenance on the old primary, which becomes the new standby
