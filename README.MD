@@ -1049,3 +1049,5 @@
 - Use Site-to-Site VPN to establish encrypted network connectivity between the on-premises data center and AWS Cloud
 
 - Use Amazon S3 to host the static website and Amazon CloudFront to distribute the content for low latency access
+
+- AWS Trusted Advisor
