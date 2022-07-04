@@ -1146,3 +1146,11 @@
   - With Bursting Throughput mode, a file system's throughput scales as the amount of data stored in the standard storage class grows. File-based workloads are typically spiky, driving high levels of throughput for short periods of time, and low levels of throughput the rest of the time. To accommodate this, Amazon EFS is designed to burst to high throughput levels for periods of time. By default, AWS recommends that you run your application in the Bursting Throughput mode. But, if you're planning to migrate large amounts of data into your file system, consider switching to Provisioned Throughput mode.
 
   - The use-case mentions that the solution should be optimized for high-frequency reading and writing even when the old outputs are archived, therefore Provisioned Throughput mode is a better fit as it guarantees high levels of throughput your applications require without having to pad your file system.
+
+- Opt for two separate Direct Connect connections terminating on separate devices in more than one Direct Connect location
+
+  - Maximum resilience is achieved by separate connections terminating on separate devices in more than one location. This configuration offers customers maximum resilience to failure. As shown in the figure above, such a topology provides resilience to device failure, connectivity failure, and complete location failure. You can use Direct Connect Gateway to access any AWS Region (except AWS Regions in China) from any AWS Direct Connect locations.
+
+  - Maximum Resiliency for Critical Workloads:
+
+    <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q22-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q22-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
