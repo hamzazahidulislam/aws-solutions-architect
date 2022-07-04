@@ -1043,4 +1043,7 @@
   - The network access control lists (ACLs) that are associated with the subnet must have rules to allow inbound and outbound traffic on port 80 (for HTTP traffic) and port 443 (for HTTPs traffic). This is a necessary condition for Internet Gateway connectivity
 
 - The route table in the instance’s subnet should have a route to an Internet Gateway
+
   - A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed. The route table in the instance’s subnet should have a route defined to the Internet Gateway.
+
+- Use Site-to-Site VPN to establish encrypted network connectivity between the on-premises data center and AWS Cloud
