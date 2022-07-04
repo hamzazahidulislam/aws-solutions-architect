@@ -1060,3 +1060,23 @@
 
   - File Gateway
     - File Gateway provides a seamless way to connect to the cloud in order to store application data files and backup images as durable objects in Amazon S3 cloud storage. File Gateway offers SMB or NFS-based access to data in Amazon S3 with local caching. It can be used for on-premises applications, and for Amazon EC2-based applications that need file protocol access to S3 object storage.
+
+- ### Amazon SQS temporary queues
+
+  - Temporary queues help you save development time and deployment costs when using common message patterns such as request-response. You can use the Temporary Queue Client to create high-throughput, cost-effective, application-managed temporary queues.
+
+  - The client maps multiple temporary queues—application-managed queues created on demand for a particular process—onto a single Amazon SQS queue automatically. This allows your application to make fewer API calls and have a higher throughput when the traffic to each temporary queue is low. When a temporary queue is no longer in use, the client cleans up the temporary queue automatically, even if some processes that use the client aren't shut down cleanly.
+
+  - The following are the benefits of temporary queues:
+
+    1. They serve as lightweight communication channels for specific threads or processes.
+
+    2. They can be created and deleted without incurring additional costs.
+
+    3. They are API-compatible with static (normal) Amazon SQS queues. This means that existing code that sends and receives messages can send messages to and receive messages from virtual queues.
+
+  - To better support short-lived, lightweight messaging destinations, AWS recommends Amazon SQS Temporary Queue Client. This client makes it easy to create and delete many temporary messaging destinations without inflating your AWS bill. The key concept behind the client is the virtual queue. Virtual queues let you multiplex many low-traffic queues onto a single SQS queue. Creating a virtual queue only instantiates a local buffer to hold messages for consumers as they arrive; there is no API call to SQS and no costs associated with creating a virtual queue.
+
+  - End-to-end process for sending messages through virtual queues:
+
+    <a href="./AWS-Certified-Solutions-Architect/assets/Selection_015.png"><img src="./AWS-Certified-Solutions-Architect/assets/Selection_015.png" alt="create-vpc" border="0" width="100%"></a>
