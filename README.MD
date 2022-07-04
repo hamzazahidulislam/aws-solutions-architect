@@ -1080,3 +1080,9 @@
   - End-to-end process for sending messages through virtual queues:
 
     <a href="./AWS-Certified-Solutions-Architect/assets/Selection_015.png"><img src="./AWS-Certified-Solutions-Architect/assets/Selection_015.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Application Load Balancer + dynamic port mapping
+
+  - Application Load Balancer can automatically distribute incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.
+
+  - Dynamic port mapping with an Application Load Balancer makes it easier to run multiple tasks on the same Amazon ECS service on an Amazon ECS cluster.
