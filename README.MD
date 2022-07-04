@@ -1162,3 +1162,11 @@
   - RAID configuration options for I/O performance v/s fault tolerance:
 
     <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q37-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q37-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
+
+- Deploy EC2 instances with Elastic Fabric Adapter
+
+  - Elastic Fabric Adapter (EFA) is a network interface for Amazon EC2 instances that enables customers to run applications requiring high levels of inter-node communications at scale on AWS. Its custom-built operating system (OS) bypass hardware interface enhances the performance of inter-instance communications, which is critical to scaling these applications. Therefore this option is correct.
+
+- Deploy EC2 instances in a cluster placement group
+
+  - Cluster placement groups pack instances close together inside an Availability Zone. They are recommended when the majority of the network traffic is between the instances in the group. These are also recommended for applications that benefit from low network latency, high network throughput, or both. Therefore this option is one of the correct answers.
