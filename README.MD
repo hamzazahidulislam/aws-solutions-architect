@@ -1037,3 +1037,10 @@
 - Set up a Route 53 active-passive failover configuration. If Route 53 health check determines the ALB endpoint as unhealthy, the traffic will be diverted to a static error page, hosted on Amazon S3 bucket
 
 - Auto Scaling group lifecycle hook
+
+- The network ACLs associated with the subnet must have rules to allow inbound and outbound traffic
+
+  - The network access control lists (ACLs) that are associated with the subnet must have rules to allow inbound and outbound traffic on port 80 (for HTTP traffic) and port 443 (for HTTPs traffic). This is a necessary condition for Internet Gateway connectivity
+
+- The route table in the instance’s subnet should have a route to an Internet Gateway
+  - A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed. The route table in the instance’s subnet should have a route defined to the Internet Gateway.
