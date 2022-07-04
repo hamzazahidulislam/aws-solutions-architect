@@ -1035,3 +1035,5 @@
 - Amazon Kinesis Data Streams. They have been getting a ProvisionedThroughputExceededException exception. = Use batch messages
 
 - Set up a Route 53 active-passive failover configuration. If Route 53 health check determines the ALB endpoint as unhealthy, the traffic will be diverted to a static error page, hosted on Amazon S3 bucket
+
+- Auto Scaling group lifecycle hook
