@@ -1126,3 +1126,9 @@
   - Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. Message brokers allow different software systems–often using different programming languages, and on different platforms–to communicate and exchange information. If an organization is using messaging with existing applications and wants to move the messaging service to the cloud quickly and easily, AWS recommends Amazon MQ for such a use case. So this is the correct option.
 
 - The AWS Lambda function is timing out - AWS Lambda functions time out after 15 minutes, and are not usually meant for long-running jobs.
+
+- Convert the gp2 volume to an io1
+
+  - Provisioned IOPS SSD (io1) volumes are designed to meet the needs of I/O-intensive workloads, particularly database workloads, that are sensitive to storage performance and consistency. Unlike gp2, which uses a bucket and credit model to calculate performance, an io1 volume allows you to specify a consistent IOPS rate when you create the volume, and Amazon EBS delivers the provisioned performance 99.9 percent of the time.
+
+  - The only solution is to convert the volume into an io1 volume. This will allow us to keep the same disk size while independently increasing the IOPS for that volume.
