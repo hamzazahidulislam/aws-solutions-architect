@@ -1088,6 +1088,19 @@
   - Dynamic port mapping with an Application Load Balancer makes it easier to run multiple tasks on the same Amazon ECS service on an Amazon ECS cluster.
 
 - The encryption used must be Advanced Encryption Standard (AES-256) and the company does not want to manage S3 encryption keys.?
+
   - SSE-S3
 
     - Using Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3), each object is encrypted with a unique key employing strong multi-factor encryption. As an additional safeguard, it encrypts the key itself with a master key that it regularly rotates. Amazon S3 server-side encryption uses one of the strongest block ciphers available, 256-bit Advanced Encryption Standard (AES-256), to encrypt your data.
+
+- single-tenant hardware
+
+  - Dedicated Instances
+
+    - Dedicated Instances are Amazon EC2 instances that run in a virtual private cloud (VPC) on hardware that's dedicated to a single customer. Dedicated Instances that belong to different AWS accounts are physically isolated at a hardware level, even if those accounts are linked to a single-payer account. However, Dedicated Instances may share hardware with other instances from the same AWS account that are not Dedicated Instances.
+
+    - A Dedicated Host is also a physical server that's dedicated for your use. With a Dedicated Host, you have visibility and control over how instances are placed on the server.
+
+    - Differences between Dedicated Hosts and Dedicated Instances:
+
+      <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q21-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q21-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
