@@ -1124,3 +1124,5 @@
 - Amazon MQ
 
   - Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. Message brokers allow different software systems–often using different programming languages, and on different platforms–to communicate and exchange information. If an organization is using messaging with existing applications and wants to move the messaging service to the cloud quickly and easily, AWS recommends Amazon MQ for such a use case. So this is the correct option.
+
+- The AWS Lambda function is timing out - AWS Lambda functions time out after 15 minutes, and are not usually meant for long-running jobs.
