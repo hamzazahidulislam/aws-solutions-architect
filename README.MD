@@ -1154,3 +1154,11 @@
   - Maximum Resiliency for Critical Workloads:
 
     <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q22-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q22-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
+
+- Use RAID 0 when I/O performance is more important than fault tolerance
+
+  - With Amazon EBS, you can use any of the standard RAID configurations that you can use with a traditional bare metal server, as long as that particular RAID configuration is supported by the operating system for your instance. This is because all RAID is accomplished at the software level.
+
+  - RAID configuration options for I/O performance v/s fault tolerance:
+
+    <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q37-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q37-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
