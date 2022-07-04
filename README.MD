@@ -1170,3 +1170,7 @@
 - Deploy EC2 instances in a cluster placement group
 
   - Cluster placement groups pack instances close together inside an Availability Zone. They are recommended when the majority of the network traffic is between the instances in the group. These are also recommended for applications that benefit from low network latency, high network throughput, or both. Therefore this option is one of the correct answers.
+
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_93.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_93.png" alt="create-vpc" border="0" width="100%"></a>
+
+    <a href="./AWS-Certified-Solutions-Architect/Screenshot_92.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_92.png" alt="create-vpc" border="0" width="100%"></a>
