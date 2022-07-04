@@ -1132,3 +1132,11 @@
   - Provisioned IOPS SSD (io1) volumes are designed to meet the needs of I/O-intensive workloads, particularly database workloads, that are sensitive to storage performance and consistency. Unlike gp2, which uses a bucket and credit model to calculate performance, an io1 volume allows you to specify a consistent IOPS rate when you create the volume, and Amazon EBS delivers the provisioned performance 99.9 percent of the time.
 
   - The only solution is to convert the volume into an io1 volume. This will allow us to keep the same disk size while independently increasing the IOPS for that volume.
+
+- Use Amazon EFS with Provisioned Throughput mode
+
+  - Provisioned Throughput mode is available for applications with high throughput to storage (MiB/s per TiB) ratios, or with requirements greater than those allowed by the Bursting Throughput mode. For example, say you're using Amazon EFS for development tools, web serving, or content management applications where the amount of data in your file system is low relative to throughput demands. Your file system can now get the high levels of throughput your applications require without having to pad your file system.
+
+  - If your file system is in the Provisioned Throughput mode, you can increase the Provisioned Throughput of your file system as often as you want. You can decrease your file system throughput in Provisioned Throughput mode as long as it's been more than 24 hours since the last decrease. Additionally, you can change between Provisioned Throughput mode and the default Bursting Throughput mode as long as it’s been more than 24 hours since the last throughput mode change.
+
+    <a href="./AWS-Certified-Solutions-Architect/assets/pt6-q33-i1.jpg"><img src="./AWS-Certified-Solutions-Architect/assets/pt6-q33-i1.jpg" alt="create-vpc" border="0" width="100%"></a>
