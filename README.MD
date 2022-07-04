@@ -1174,3 +1174,19 @@
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_93.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_93.png" alt="create-vpc" border="0" width="100%"></a>
 
     <a href="./AWS-Certified-Solutions-Architect/Screenshot_92.png"><img src="./AWS-Certified-Solutions-Architect/Screenshot_92.png" alt="create-vpc" border="0" width="100%"></a>
+
+- Configure the bucket policy to deny if the PutObject does not have an x-amz-server-side-encryption header set
+
+  - Amazon S3 encrypts your data at the object level as it writes to disks in AWS data centers, and decrypts it for you when you access it. You can encrypt objects by using client-side encryption or server-side encryption. Client-side encryption occurs when an object is encrypted before you upload it to S3, and the keys are not managed by AWS. With server-side encryption, Amazon manages the keys in one of three ways:
+
+    1. Server-side encryption with customer-provided encryption keys (SSE-C).
+
+    2. SSE-S3.
+
+    3. SSE-KMS.
+
+  - Server-side encryption is about data encryption at rest—that is, S3 encrypts your data at the object level as it writes it to disks in its data centers and decrypts it for you when you access it. As long as you authenticate your request and you have access permissions, there is no difference in the way you access encrypted or unencrypted objects.
+
+  - To encrypt an object at the time of upload, you need to add a header called x-amz-server-side-encryption to the request to tell S3 to encrypt the object using SSE-C, SSE-S3, or SSE-KMS.
+
+  - In order to enforce object encryption, create an S3 bucket policy that denies any S3 Put request that does not include the x-amz-server-side-encryption header. There are two possible values for the x-amz-server-side-encryption header: AES256, which tells S3 to use S3-managed keys, and aws:kms, which tells S3 to use AWS KMS–managed keys.
