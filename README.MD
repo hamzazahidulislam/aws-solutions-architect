@@ -1215,4 +1215,3 @@
   - Amazon Inspector is an automated security assessment service that helps you test the network accessibility of your Amazon EC2 instances and the security state of your applications running on the instances.
 
 20
-rafiq08liza06
