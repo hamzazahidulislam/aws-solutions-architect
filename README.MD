@@ -1206,3 +1206,13 @@
 - AWS Shield Advanced
 
 - VPC Security Groups
+
+- Amazon GuardDuty
+
+  - Amazon GuardDuty offers threat detection that enables you to continuously monitor and protect your AWS accounts, workloads, and data stored in Amazon S3. GuardDuty analyzes continuous streams of meta-data generated from your account and network activity found in AWS CloudTrail Events, Amazon VPC Flow Logs, and DNS Logs.
+
+- Amazon Inspector
+  - Amazon Inspector is an automated security assessment service that helps you test the network accessibility of your Amazon EC2 instances and the security state of your applications running on the instances.
+
+20
+rafiq08liza06
