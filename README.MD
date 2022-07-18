@@ -1216,5 +1216,5 @@
 
 20
 
--  concurrently-accessible storage = EFS
+- concurrently-accessible storage = EFS
 - **lowest-latency access to data** from a single EC2 instance = EBS
